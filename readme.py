@@ -19,9 +19,11 @@ def make_table(df):
       cod_ine, pop, proportion = [0] * 3
     else:
       cod_ine = cod_ine[0]
-      pop = int(population[population['cod_ine'] == cod_ine]['poblacion'].values[0])
+      dep, pop = population[population['cod_ine'] == cod_ine][['departamento', 'poblacion']].values.tolist()[0]
+      pop = int(pop)
       proportion = (mun[0] / pop) * 100
-    view.append([mun.name,
+    view.append([dep,
+                 mun.name,
                  int(mun[0]),
                  int(mun[0] - mun[1]),
                  int(mun[0] - mun[-1]),
@@ -29,7 +31,7 @@ def make_table(df):
                  proportion,
                  '<img src="{}"/>'.format(path)])
   with open('readme.md', 'a') as f:
-    pd.DataFrame(view, columns=['Municipio', 'Confirmados', 'Último Día', 'Desde {}'.format(df.columns[-1]), 'Población', '% Infectado', 'Tendencia']).sort_values('Desde {}'.format(df.columns[-1]), ascending=False).to_markdown(f, tablefmt='github', showindex=False, floatfmt=".3f")
+    pd.DataFrame(view, columns=['Departamento', 'Municipio', 'Confirmados', 'Último Día', 'Desde {}'.format(df.columns[-1]), 'Población', '% Infectado', 'Tendencia']).sort_values('Desde {}'.format(df.columns[-1]), ascending=False).to_markdown(f, tablefmt='github', showindex=False, floatfmt=".3f")
 
 def make_plot(name, series):
   output = 'plots/{}.png'.format(name.strip().lower().replace(" ", "-"))
