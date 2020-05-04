@@ -9,12 +9,27 @@ import os
 
 def make_table(df):
   view = []
+  codigos = pd.read_csv('context/cod_ine.csv')
+  population = pd.read_csv('context/poblacion.csv')
   for row in range(0,len(df)):
     mun = df.iloc[row]
     path = make_plot(mun.name, mun)
-    view.append([mun.name,mun[0], mun[0] - mun[1], mun[0] - mun[-1], '<img src="{}"/>'.format(path)])
+    cod_ine = codigos[codigos['municipio'] == mun.name]['cod_ine'].values
+    if len(cod_ine) == 0:
+      cod_ine, pop, proportion = [0] * 3
+    else:
+      cod_ine = cod_ine[0]
+      pop = int(population[population['cod_ine'] == cod_ine]['poblacion'].values[0])
+      proportion = (mun[0] / pop) * 100
+    view.append([mun.name,
+                 int(mun[0]),
+                 int(mun[0] - mun[1]),
+                 int(mun[0] - mun[-1]),
+                 pop,
+                 proportion,
+                 '<img src="{}"/>'.format(path)])
   with open('readme.md', 'a') as f:
-    pd.DataFrame(view, columns=['Municipio', df.columns[0], 'último día', 'desde {}'.format(df.columns[-1]), 'Tendencia']).sort_values('desde {}'.format(df.columns[-1]), ascending=False).to_markdown(f, tablefmt='github', showindex=False)
+    pd.DataFrame(view, columns=['Municipio', 'Confirmados', 'Último Día', 'Desde {}'.format(df.columns[-1]), 'Población', '% Infectado', 'Tendencia']).sort_values('Desde {}'.format(df.columns[-1]), ascending=False).to_markdown(f, tablefmt='github', showindex=False, floatfmt=".3f")
 
 def make_plot(name, series):
   output = 'plots/{}.png'.format(name.strip().lower().replace(" ", "-"))
@@ -44,13 +59,19 @@ def intro():
   txt = [
     '> Casos confirmados de covid19 en Bolivia por municipio, de acuerdo a [esta visualización](https://datosagt2020.carto.com/builder/c1cdf57c-a007-4f3f-883a-c25ebdc50986/embed) mantenida por agetic datos',
     '_Actualizado el {}_'.format(datetime.today().strftime('%Y/%m/%d')),
-    'Los datos hasta el 30 de abril provienen de esta [otra visualización](https://juliael.carto.com/builder/c70fa175-3e6a-4955-8088-89048c6e6886/embed) de agetic.']
+    'Ordenados por el número de casos en la última semana.']
   with open('readme.md', 'w+') as f:
     f.write('\n\n'.join(txt) + '\n\n')
 
+def outro():
+  txt = [
+    'Los datos hasta el 30 de abril provienen de esta [otra visualización](https://juliael.carto.com/builder/c70fa175-3e6a-4955-8088-89048c6e6886/embed) de agetic.']
+  with open('readme.md', 'a') as f:
+    f.write('\n\n---\n\n' + '\n\n'.join(txt))
+    
 intro()
 days = get_file_list()
 df = make_dataframe(days)
 make_table(df)
-
+outro()
 
