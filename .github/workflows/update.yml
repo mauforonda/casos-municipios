@@ -11,6 +11,7 @@ jobs:
         uses: actions/checkout@master
         with:
           ref: master
+          lfs: true
       - name: python setup
         uses: actions/setup-python@v1
         with:
