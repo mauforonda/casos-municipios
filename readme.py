@@ -17,13 +17,13 @@ def make_table(df):
     path = make_plot(mun.name, mun)
     cod_ine = codigos[codigos['municipio'] == mun.name]['cod_ine'].values
     if len(cod_ine) == 0:
-      cod_ine, riesgo, indice, dep, pop, proportion = [0] * 6
+      cod_ine, riesgo, indice, dep, pop, perthous = [0] * 6
     else:
       cod_ine = cod_ine[0]
       riesgo, indice = riesgos[riesgos['cod_ine'] == cod_ine][['riesgo','indice']].values.tolist()[0]
       dep, pop = population[population['cod_ine'] == cod_ine][['departamento', 'poblacion']].values.tolist()[0]
       pop = int(pop)
-      proportion = (mun[0] / pop) * 100
+      perthous = int((mun[0] / pop) * 1000000)
     view.append([dep,
                  mun.name,
                  int(mun[0]),
@@ -31,11 +31,10 @@ def make_table(df):
                  int(mun[0] - mun[-1]),
                  riesgo,
                  indice,
-                 pop,
-                 proportion,
+                 perthous,
                  '<img src="{}"/>'.format(path)])
-  view_cols = ['Departamento', 'Municipio', 'Confirmados', 'Último Día', 'Desde {}'.format(df.columns[-1]), 'Riesgo', 'Índice', 'Población', '% Infectado', 'Tendencia']
-  view_df = pd.DataFrame(view, columns=view_cols).sort_values('Desde {}'.format(df.columns[-1]), ascending=False)
+  view_cols = ['Departamento', 'Municipio', 'Confirmados', 'Último Día', 'Desde {}'.format(df.columns[-1]), 'Riesgo', 'Índice', 'Casos por millón de habitantes', 'Tendencia']
+  view_df = pd.DataFrame(view, columns=view_cols).sort_values('Casos por millón de habitantes', ascending=False)
   with open('readme.md', 'a') as f:
     view_df.to_markdown(f, tablefmt='github', showindex=False, floatfmt=".3f")
   with open('dashboard.csv', 'w+') as f:
@@ -69,7 +68,7 @@ def intro(days):
   txt = [
     '> Casos confirmados de covid19 en Bolivia por municipio, de acuerdo a [esta visualización](https://datosagt2020.carto.com/builder/c1cdf57c-a007-4f3f-883a-c25ebdc50986/embed) mantenida por agetic datos',
     '_Actualizado el {a} con datos hasta el {u}_'.format(a=datetime.today().strftime('%Y/%m/%d'), u=days[0].replace('-','/')),
-    'Ordenados por el número de casos en la última semana.']
+    'Ordenados por el número de casos por millón de habitantes.']
   with open('readme.md', 'w+') as f:
     f.write('\n\n'.join(txt) + '\n\n')
 
