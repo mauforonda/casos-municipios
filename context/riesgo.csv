@@ -1,0 +1,340 @@
+departamento,municipio,indice,riesgo,cod_ine
+Chuquisaca,Sucre,0.898,ALTO,10101
+Chuquisaca,Culpina,0.9317,MODERADO,10902
+Chuquisaca,Yamparaez,0.9343,MODERADO,10602
+Chuquisaca,Tarabuco,0.9383,MODERADO,10601
+Chuquisaca,Villa Serrano,0.9388,MODERADO,10801
+Chuquisaca,Las Carreras,0.9393,MODERADO,10903
+Chuquisaca,Yotala,0.9394,MODERADO,10102
+Chuquisaca,Icla,0.9396,MODERADO,10304
+Chuquisaca,Tarvita,0.9403,MODERADO,10202
+Chuquisaca,Padilla,0.9404,MODERADO,10401
+Chuquisaca,San Lucas,0.9411,MODERADO,10702
+Chuquisaca,Poroma,0.9412,MODERADO,10103
+Chuquisaca,Villa Abecia,0.9416,MODERADO,10901
+Chuquisaca,Sopachuy,0.9416,MODERADO,10403
+Chuquisaca,Azurduy,0.942,MODERADO,10201
+Chuquisaca,Mojocoya,0.9422,MODERADO,10303
+Chuquisaca,Camargo,0.9424,MODERADO,10701
+Chuquisaca,Tomina,0.9428,MODERADO,10402
+Chuquisaca,El Villar,0.9429,MODERADO,10405
+Chuquisaca,Huacareta,0.9431,MODERADO,10502
+Chuquisaca,Muyupampa,0.9436,MODERADO,11001
+Chuquisaca,Zudáñez,0.9442,MODERADO,10301
+Chuquisaca,Monteagudo,0.9444,MODERADO,10501
+Chuquisaca,Villa Alcalá,0.9446,MODERADO,10404
+Chuquisaca,Presto,0.9449,MODERADO,10302
+Chuquisaca,Macharetí,0.9455,MODERADO,11003
+Chuquisaca,Huacaya,0.9462,MODERADO,11002
+Chuquisaca,Villa Charcas,0.9475,MODERADO,10704
+Chuquisaca,Incahuasi,0.9492,MODERADO,10703
+La Paz,Cairoma,0.5221,ALTO,20905
+La Paz,Patacamaya,0.5494,ALTO,21305
+La Paz,La Paz,0.6686,ALTO,20101
+La Paz,El Alto,0.6936,ALTO,20105
+La Paz,Laja,0.6946,ALTO,21202
+La Paz,Viacha,0.7074,ALTO,20801
+La Paz,Malla,0.7319,ALTO,20904
+La Paz,Copacabana,0.7426,ALTO,21701
+La Paz,Achacachi,0.7564,ALTO,20201
+La Paz,Chulumani,0.7585,ALTO,21101
+La Paz,Pucarani,0.8551,ALTO,21201
+La Paz,Mecapaca,0.8552,ALTO,20103
+La Paz,Palca,0.8584,ALTO,20102
+La Paz,Achocalla,0.86,ALTO,20104
+La Paz,San Pedro de Tiquina,0.8938,ALTO,21702
+La Paz,Caranavi,0.8955,ALTO,22001
+La Paz,Santiago de Huata,0.897,ALTO,20204
+La Paz,Taraco,0.8988,ALTO,20807
+La Paz,Guaqui,0.8988,MEDIO,20802
+La Paz,Huarina,0.8991,MEDIO,20203
+La Paz,Escoma,0.8995,MEDIO,20405
+La Paz,Puerto Acosta,0.9006,MEDIO,20401
+La Paz,San Andrés de Machaca,0.9011,MEDIO,20805
+La Paz,Santiago de Machaca,0.9014,MEDIO,21901
+La Paz,Callapa,0.9016,MEDIO,20308
+La Paz,Huatajata,0.9026,MEDIO,20205
+La Paz,Calacoto,0.9036,MEDIO,20303
+La Paz,Umala,0.9041,MEDIO,21302
+La Paz,Puerto Pérez,0.9044,MEDIO,21204
+La Paz,Chua Cocani,0.9052,MEDIO,20206
+La Paz,Caquiaviri,0.9059,MEDIO,20302
+La Paz,Ancoraimes,0.9061,MEDIO,20202
+La Paz,Comanche,0.9066,MEDIO,20304
+La Paz,Pto. Carabuco,0.9067,MEDIO,20403
+La Paz,Mocomoco,0.9069,MEDIO,20402
+La Paz,Jesús de Machaca,0.9086,MEDIO,20806
+La Paz,Combaya,0.9092,MEDIO,20605
+La Paz,Humanata,0.9097,MEDIO,20404
+La Paz,Batallas,0.9102,MEDIO,21203
+La Paz,Papel Pampa,0.9104,MEDIO,21802
+La Paz,Corocoro,0.9112,MEDIO,20301
+La Paz,Tiahuanacu,0.9115,MEDIO,20803
+La Paz,San Pedro Cuarahuara,0.9117,MEDIO,21801
+La Paz,Chuma,0.9119,MEDIO,20501
+La Paz,Desaguadero,0.9125,MEDIO,20804
+La Paz,Chacarilla,0.9127,MEDIO,21803
+La Paz,Ayo Ayo,0.9131,MEDIO,21303
+La Paz,Sapahaqui,0.9136,MEDIO,20902
+La Paz,Yaco,0.9136,MEDIO,20903
+La Paz,Charaña,0.9136,MEDIO,20305
+La Paz,Quime,0.9143,MEDIO,21002
+La Paz,Luribay,0.9149,MEDIO,20901
+La Paz,Inquisivi,0.9157,MEDIO,21001
+La Paz,Sorata,0.9164,MEDIO,20601
+La Paz,Quiabaya,0.9164,MEDIO,20604
+La Paz,Calamarca,0.9168,MEDIO,21304
+La Paz,Nazacara de Pacajes,0.9168,MEDIO,20307
+La Paz,Ayata,0.917,MEDIO,20502
+La Paz,Collana,0.9182,MEDIO,21307
+La Paz,Ichoca,0.9183,MEDIO,21005
+La Paz,Sica Sica,0.9186,MEDIO,21301
+La Paz,Curva,0.9192,MEDIO,21602
+La Paz,Charazani,0.9194,MEDIO,21601
+La Paz,Aucapata,0.9195,MEDIO,20503
+La Paz,Irupana,0.9196,MEDIO,21102
+La Paz,Coroico,0.9196,MEDIO,21401
+La Paz,Colquencha,0.9197,MEDIO,21306
+La Paz,Tito Yupanqui,0.9198,MEDIO,21703
+La Paz,Yanacachi,0.9208,MEDIO,21103
+La Paz,Cajuata,0.9211,MEDIO,21003
+La Paz,Colquiri,0.9216,MEDIO,21004
+La Paz,Coripata,0.9217,MEDIO,21402
+La Paz,Villa Libertad Licoma,0.9225,MEDIO,21006
+La Paz,Catacora,0.9234,MEDIO,21902
+La Paz,Apolo,0.9235,MEDIO,20701
+La Paz,Pelechuco,0.9248,MEDIO,20702
+La Paz,Guanay,0.9249,MEDIO,20602
+La Paz,Tacacoma,0.9249,MEDIO,20603
+La Paz,San Buenaventura,0.9262,MEDIO,21502
+La Paz,Teoponte,0.9263,MEDIO,20608
+La Paz,Alto Beni,0.9264,MEDIO,22002
+La Paz,Waldo Ballivián,0.9264,MEDIO,20306
+La Paz,Palos Blancos,0.9273,MODERADO,21104
+La Paz,Tipuani,0.9276,MODERADO,20606
+La Paz,Mapiri,0.9285,MODERADO,20607
+La Paz,Ixiamas,0.9294,MODERADO,21501
+La Paz,La Asunta,0.9308,MODERADO,21105
+Cochabamba,Villa Rivero,0.923,MEDIO,31402
+Cochabamba,Independencia,0.9231,MEDIO,30301
+Cochabamba,Tolata,0.9242,MEDIO,30803
+Cochabamba,Bolívar,0.9245,MEDIO,31501
+Cochabamba,Tapacarí,0.9247,MEDIO,31101
+Cochabamba,Pocona,0.9247,MEDIO,31203
+Cochabamba,Sicaya,0.925,MEDIO,30703
+Cochabamba,Aiquile,0.9253,MEDIO,30201
+Cochabamba,Cuchumuela,0.9253,MEDIO,31405
+Cochabamba,Capinota,0.9261,MEDIO,30701
+Cochabamba,Arbieto,0.9264,MEDIO,30403
+Cochabamba,Alalay,0.9265,MEDIO,31303
+Cochabamba,Tiraque,0.9267,MODERADO,31601
+Cochabamba,Arque,0.9273,MODERADO,30601
+Cochabamba,Pasorapa,0.9274,MODERADO,30202
+Cochabamba,Mizque,0.9285,MODERADO,31301
+Cochabamba,Totora,0.9288,MODERADO,31201
+Cochabamba,Vila Vila,0.929,MODERADO,31302
+Cochabamba,Colomi,0.9302,MODERADO,31002
+Cochabamba,Cocapata,0.9305,MODERADO,30303
+Cochabamba,Pojo,0.9306,MODERADO,31202
+Cochabamba,Shinahota,0.9361,MODERADO,31602
+Cochabamba,Entre Ríos,0.9378,MODERADO,31206
+Cochabamba,Santivañez,0.419,ALTO,30702
+Cochabamba,Omereque,0.6117,ALTO,30203
+Cochabamba,Cliza,0.7022,ALTO,30801
+Cochabamba,Quillacollo,0.7135,ALTO,30901
+Cochabamba,Punata,0.7235,ALTO,31401
+Cochabamba,Cochabamba,0.7258,ALTO,30101
+Cochabamba,Colcapirhua,0.7365,ALTO,30905
+Cochabamba,Sacaba,0.7381,ALTO,31001
+Cochabamba,Vinto,0.7382,ALTO,30904
+Cochabamba,Chimoré,0.7987,ALTO,31204
+Cochabamba,Sipesipe,0.8695,ALTO,30902
+Cochabamba,Tiquipaya,0.8722,ALTO,30903
+Cochabamba,Villa Tunari,0.9063,MEDIO,31003
+Cochabamba,Puerto Villarroel,0.9072,MEDIO,31205
+Cochabamba,Vacas,0.9158,MEDIO,30502
+Cochabamba,Anzaldo,0.9159,MEDIO,30402
+Cochabamba,Toco,0.9169,MEDIO,30802
+Cochabamba,Arani,0.9179,MEDIO,30501
+Cochabamba,Tarata,0.9218,MEDIO,30401
+Cochabamba,Tacachi,0.922,MEDIO,31404
+Cochabamba,San Benito,0.922,MEDIO,31403
+Cochabamba,Sacabamba,0.922,MEDIO,30404
+Cochabamba,Tacopaya,0.9221,MEDIO,30602
+Cochabamba,Morochata,0.9228,MEDIO,30302
+Oruro,Eucaliptus,0.3549,ALTO,41101
+Oruro,Huanuni,0.6366,ALTO,40701
+Oruro,Quillacas,0.6391,ALTO,40202
+Oruro,Oruro,0.7125,ALTO,40101
+Oruro,Huayllamarca,0.9075,MEDIO,41601
+Oruro,Belén de Andamarca,0.9128,MEDIO,41202
+Oruro,Santiago de Andamarca,0.9132,MEDIO,41201
+Oruro,Corque,0.9147,MEDIO,40301
+Oruro,Poopó,0.9182,MEDIO,40601
+Oruro,Machacamarca,0.9183,MEDIO,40702
+Oruro,San Pedro de Totora,0.9189,MEDIO,41301
+Oruro,Toledo,0.9193,MEDIO,41001
+Oruro,Pazña,0.9193,MEDIO,40602
+Oruro,Turco,0.9194,MEDIO,40402
+Oruro,Curahuara de Carangas,0.9195,MEDIO,40401
+Oruro,Choque Cota,0.9196,MEDIO,40302
+Oruro,Salinas de García Mendoza,0.9214,MEDIO,40801
+Oruro,Pampa Aullagas,0.9216,MEDIO,40802
+Oruro,Huari,0.9218,MEDIO,40802
+Oruro,El Choro,0.9232,MEDIO,40103
+Oruro,Caracollo,0.9248,MEDIO,40102
+Oruro,La Rivera,0.9252,MEDIO,41501
+Oruro,Soracachi,0.9256,MEDIO,40104
+Oruro,Challapata,0.9258,MEDIO,40201
+Oruro,Cruz de Machacamarca,0.9267,MEDIO,40503
+Oruro,Escara,0.9269,MODERADO,40502
+Oruro,Antequera,0.928,MODERADO,40603
+Oruro,Huachacalla,0.9296,MODERADO,40501
+Oruro,Esmeralda,0.9301,MODERADO,40505
+Oruro,Sabaya,0.9304,MODERADO,40901
+Oruro,Coipasa,0.9305,MODERADO,40902
+Oruro,Chipaya,0.9318,MODERADO,40903
+Oruro,Carangas,0.9326,MODERADO,41503
+Oruro,Yunguyo de Litoral,0.9328,MODERADO,40504
+Oruro,Todos Santos,0.9329,MODERADO,41502
+Potosí,Potosí,0.8106,ALTO,50101
+Potosí,Colcha K,0.8182,ALTO,50901
+Potosí,Uyuni,0.8556,ALTO,51201
+Potosí,Villazón,0.9263,MEDIO,51501
+Potosí,Yocalla,0.9423,MODERADO,50103
+Potosí,Chaquí,0.9432,MODERADO,50302
+Potosí,Puna,0.947,MODERADO,51101
+Potosí,Vitichi,0.9471,MODERADO,50602
+Potosí,Llica,0.9472,MODERADO,51401
+Potosí,Tahua,0.9484,MODERADO,51402
+Potosí,Arampampa,0.9488,MODERADO,51301
+Potosí,Pocoata,0.949,MODERADO,50403
+Potosí,San Pedro de Quemes,0.9495,MODERADO,50902
+Potosí,Tomave,0.9497,MODERADO,51202
+Potosí,Toro Toro,0.9501,MODERADO,50502
+Potosí,Ravelo,0.9505,MODERADO,50402
+Potosí,Acasio,0.9512,MODERADO,51302
+Potosí,Urmiri,0.9512,MODERADO,50104
+Potosí,Betanzos,0.9519,MODERADO,50301
+Potosí,Caiza D,0.9522,MODERADO,51102
+Potosí,Caripuyo,0.9534,MODERADO,50702
+Potosí,Tacobamba,0.9534,MODERADO,50303
+Potosí,Chayanta,0.9536,MODERADO,50202
+Potosí,Tupiza,0.9539,MODERADO,50801
+Potosí,S.P. De Buena Vista,0.954,MODERADO,50801
+Potosí,Colquechaca,0.9546,MODERADO,50401
+Potosí,Tinguipaya,0.9546,MODERADO,50102
+Potosí,Cotagaita,0.9547,MODERADO,50601
+Potosí,Ocurí,0.9549,MODERADO,50404
+Potosí,San Agustín,0.9553,MODERADO,51601
+Potosí,Villa de Sacaca,0.9555,MODERADO,50701
+Potosí,Uncía,0.9566,MODERADO,50201
+Potosí,Mojinete,0.9571,MODERADO,51002
+Potosí,San Antonio de Esmoruco,0.9571,MODERADO,51003
+Potosí,Ckochas,0.9571,MODERADO,51103
+Potosí,San Pablo de Lipez,0.9578,MODERADO,51001
+Potosí,Chuquiuta,0.9591,MODERADO,50204
+Potosí,Llallagua,0.9612,MODERADO,50203
+Potosí,Atocha,0.9635,MODERADO,50802
+Potosí,Porco,0.9647,MODERADO,51203
+Tarija,Tarija,0.7709,ALTO,60101
+Tarija,Yacuiba,0.8922,ALTO,60301
+Tarija,Villamontes,0.8934,ALTO,60303
+Tarija,Yunchará,0.9139,MEDIO,60402
+Tarija,Villa San Lorenzo,0.9143,MEDIO,60501
+Tarija,El Puente,0.9156,MEDIO,60502
+Tarija,Padcaya,0.9167,MEDIO,60201
+Tarija,Entre Ríos,0.9184,MEDIO,60601
+Tarija,Uriondo,0.9184,MEDIO,60401
+Tarija,Bermejo,0.9204,MEDIO,60202
+Tarija,Caraparí,0.922,MEDIO,60302
+Santa Cruz,Montero,0.3608,ALTO,71001
+Santa Cruz,Santa Rosa del Sara,0.6317,ALTO,70602
+Santa Cruz,Santa Cruz de la Sierra,0.6548,ALTO,70101
+Santa Cruz,La Guardia,0.6612,ALTO,70104
+Santa Cruz,Vallegrande,0.675,ALTO,70801
+Santa Cruz,El Torno,0.6837,ALTO,70105
+Santa Cruz,Cotoca,0.6931,ALTO,70102
+Santa Cruz,Roboré,0.695,ALTO,70503
+Santa Cruz,Warnes,0.7019,ALTO,70201
+Santa Cruz,Mineros,0.7023,ALTO,71003
+Santa Cruz,Gral. Saavedra,0.7025,ALTO,71002
+Santa Cruz,Porongo,0.7068,ALTO,70103
+Santa Cruz,Portachuelo,0.7452,ALTO,70601
+Santa Cruz,Pailón,0.7496,ALTO,70502
+Santa Cruz,San Julián,0.7522,ALTO,71104
+Santa Cruz,Buena Vista,0.7615,ALTO,70401
+Santa Cruz,Mairana,0.7638,ALTO,70903
+Santa Cruz,Camiri,0.7668,ALTO,70706
+Santa Cruz,San Carlos,0.7718,ALTO,70402
+Santa Cruz,Concepción,0.7741,ALTO,71101
+Santa Cruz,San Pedro,0.7757,ALTO,71005
+Santa Cruz,San Ignacio de Velasco,0.8947,ALTO,70301
+Santa Cruz,Yapacaní,0.8957,ALTO,70403
+Santa Cruz,Moro Moro,0.9115,MEDIO,70803
+Santa Cruz,Trigal,0.9137,MEDIO,70802
+Santa Cruz,Pucara,0.9152,MEDIO,70805
+Santa Cruz,Samaipata,0.9164,MEDIO,70901
+Santa Cruz,Postrer Valle,0.9167,MEDIO,70804
+Santa Cruz,Quirusillas,0.9198,MEDIO,70904
+Santa Cruz,Cuevo,0.9204,MEDIO,70704
+Santa Cruz,Pampa Grande,0.9205,MEDIO,70902
+Santa Cruz,Lagunillas,0.9206,MEDIO,70701
+Santa Cruz,Comarapa,0.9218,MEDIO,71301
+Santa Cruz,San Juan de Yapacaní,0.9223,MEDIO,70404
+Santa Cruz,Colpa Belgica,0.9225,MEDIO,70603
+Santa Cruz,San Miguel de Velasco,0.9228,MEDIO,70302
+Santa Cruz,Gutiérrez,0.9229,MEDIO,70705
+Santa Cruz,Boyuibe,0.9229,MEDIO,70707
+Santa Cruz,Saipina,0.9231,MEDIO,71302
+Santa Cruz,Carmen Rivero Torrez,0.9231,MEDIO,71403
+Santa Cruz,San Matías,0.9234,MEDIO,71201
+Santa Cruz,Urubichá,0.9238,MEDIO,71502
+Santa Cruz,Puerto Suarez,0.9239,MEDIO,71401
+Santa Cruz,Okinawa Uno,0.9239,MEDIO,70202
+Santa Cruz,San Antonio de Lomerío,0.9243,MEDIO,71105
+Santa Cruz,Charagua,0.9249,MEDIO,70702
+Santa Cruz,Fernández Alonso,0.925,MEDIO,71004
+Santa Cruz,San Ramón,0.9251,MEDIO,71103
+Santa Cruz,Ascensión de Guarayos,0.9253,MEDIO,71501
+Santa Cruz,Cabezas,0.9253,MEDIO,70703
+Santa Cruz,San Rafael,0.9254,MEDIO,70303
+Santa Cruz,San Javier,0.9254,MEDIO,71102
+Santa Cruz,El Puente,0.9258,MEDIO,71503
+Santa Cruz,San José de Chiquitos,0.9259,MEDIO,70501
+Santa Cruz,Puerto Quijarro,0.9261,MEDIO,71402
+Santa Cruz,Cuatro Cañadas,0.9275,MODERADO,71106
+Beni,Trinidad,0.2386,ALTO,80101
+Beni,San Ignacio,0.6152,ALTO,80501
+Beni,Guayaramerín,0.6201,ALTO,80202
+Beni,Riberalta,0.9147,MEDIO,80201
+Beni,Magdalena,0.941,MODERADO,80801
+Beni,San Ramón,0.941,MODERADO,80702
+Beni,Huacaraje,0.942,MODERADO,80803
+Beni,Santa Ana de Yacuma,0.9421,MODERADO,80401
+Beni,Reyes,0.9422,MODERADO,80301
+Beni,San Javier,0.9422,MODERADO,80102
+Beni,Puerto Siles,0.9425,MODERADO,80703
+Beni,Baures,0.9425,MODERADO,80802
+Beni,San Joaquín,0.9426,MODERADO,80701
+Beni,Santa Rosa,0.943,MODERADO,80303
+Beni,San Borja,0.9433,MODERADO,80302
+Beni,San Andrés,0.9438,MODERADO,80602
+Beni,Loreto,0.9444,MODERADO,80601
+Beni,Rurrenabaque,0.9446,MODERADO,80304
+Beni,Exaltación,0.9454,MODERADO,80402
+Pando,Cobija,0.7097,ALTO,90101
+Pando,Bolpebra,0.9262,MEDIO,90103
+Pando,Nueva Esperanza,0.928,MODERADO,90501
+Pando,Porvenir,0.9281,MODERADO,90102
+Pando,Filadelfia,0.9281,MODERADO,90203
+Pando,Bella Flor,0.9288,MODERADO,90104
+Pando,Puerto Gonzales Moreno,0.9293,MODERADO,90301
+Pando,Puerto Rico,0.9295,MODERADO,90201
+Pando,Villa Nueva (Loma Alta),0.9301,MODERADO,90502
+Pando,Santos Mercado,0.9308,MODERADO,90503
+Pando,Ingavi,0.9308,MODERADO,90402
+Pando,San Lorenzo,0.931,MODERADO,90302
+Pando,Santa Rosa,0.9316,MODERADO,90401
+Pando,Sena,0.9318,MODERADO,90303
+Pando,San Pedro,0.9327,MODERADO,90202
