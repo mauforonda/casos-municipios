@@ -77,7 +77,7 @@ def outro():
   txt = [
     '- Los datos hasta el 30 de abril provienen de esta [otra visualización](https://juliael.carto.com/builder/c70fa175-3e6a-4955-8088-89048c6e6886/embed) de agetic.',
     '- Los índices de riesgo fueron publicados el 7 de mayo por el gobierno en [este pdf](https://www.minsalud.gob.bo/images/Descarga/covid19/Indice_Riesgo_Municipal_070520.pdf)',
-    '- Existen muchas irregularidades en los nombres de municipios provistos por la fuente de datos de casos. Por eso prefiero construir un diccionario manual de códigos por muncipios. Eso significa que cuando se registre un caso en un nuevo municipio, las columnas de contexto estarán temporalmente vacías.',
+    '- Existen muchas irregularidades en los nombres de municipios provistos por la fuente de datos de casos. Por eso prefiero construir un diccionario manual de códigos ine. Eso significa que cuando se registre un caso en un nuevo municipio, las columnas de contexto estarán temporalmente vacías.',
     '- Puedes descargar los datos de la tabla de encima en [este enlace](https://raw.githubusercontent.com/mauforonda/casos-municipios/master/dashboard.csv)']
   with open('readme.md', 'a') as f:
     f.write('\n\n---\n\n' + '\n\n'.join(txt))
