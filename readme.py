@@ -33,7 +33,7 @@ def make_table(df):
                  indice,
                  perthous,
                  '<img src="{}"/>'.format(path)])
-  view_cols = ['Departamento', 'Municipio', 'Confirmados', 'Último Día', 'Desde {}'.format(df.columns[-1]), 'Riesgo', 'Índice', 'Casos por millón de habitantes', 'Tendencia']
+  view_cols = ['Departamento', 'Municipio', 'Casos', 'Último Día', 'Desde {}'.format(df.columns[-1]), 'Riesgo', 'Índice', 'Casos por millón de habitantes', 'Tendencia']
   view_df = pd.DataFrame(view, columns=view_cols).sort_values('Casos por millón de habitantes', ascending=False)
   with open('readme.md', 'a') as f:
     view_df.to_markdown(f, tablefmt='github', showindex=False, floatfmt=".3f")
