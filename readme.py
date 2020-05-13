@@ -36,7 +36,7 @@ def make_table(df):
                  recuperados,
                  decesos,
                  indice])
-  view_cols = ['Departamento', 'Municipio', 'Casos', 'Tendencia', 'Desde el {}'.format(datetime.strptime(df.columns[-1], '%Y-%m-%d').strftime('%m-%d')), 'Casos por millón de habitantes', 'Recuperados', 'Decesos', 'Índice de riesgo']
+  view_cols = ['Departamento', 'Municipio', 'Casos', 'Tendencia', 'Casos por millón de habitantes', 'Desde el {}'.format(datetime.strptime(df.columns[-1], '%Y-%m-%d').strftime('%m-%d')), 'Recuperados', 'Decesos', 'Índice de riesgo']
   view_df = pd.DataFrame(view, columns=view_cols).sort_values('Casos por millón de habitantes', ascending=False)
   with open('readme.md', 'a') as f:
     view_df.to_markdown(f, tablefmt='github', showindex=False, floatfmt=".3f")
