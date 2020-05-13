@@ -12,10 +12,13 @@ def make_table(df):
   codigos = pd.read_csv('context/cod_ine.csv')
   population = pd.read_csv('context/poblacion.csv')
   riesgos = pd.read_csv('context/riesgo.csv')
+  last_cases = pd.read_csv('data/{}.csv'.format(df.columns[0]))[['municipio', 'recuperados', 'decesos']]
+  
   for row in range(0,len(df)):
     mun = df.iloc[row]
     path = make_plot(mun.name, mun)
     cod_ine = codigos[codigos['municipio'] == mun.name]['cod_ine'].values
+    recuperados, decesos = last_cases[last_cases['municipio'] == mun.name][['recuperados', 'decesos']].values.tolist()[0]
     if len(cod_ine) == 0:
       cod_ine, riesgo, indice, dep, pop, perthous = [0] * 6
     else:
@@ -27,18 +30,19 @@ def make_table(df):
     view.append([dep,
                  mun.name,
                  int(mun[0]),
-                 int(mun[0] - mun[1]),
+                 '<img src="{}"/>'.format(path),
                  int(mun[0] - mun[-1]),
-                 riesgo,
+                 recuperados,
+                 decesos,
                  indice,
-                 perthous,
-                 '<img src="{}"/>'.format(path)])
-  view_cols = ['Departamento', 'Municipio', 'Casos', 'Último Día', 'Desde {}'.format(df.columns[-1]), 'Riesgo', 'Índice', 'Casos por millón de habitantes', 'Tendencia']
+                 perthous])
+  view_cols = ['Departamento', 'Municipio', 'Confirmados', 'Tendencia', 'Desde el {}'.format(datetime.strptime(df.columns[-1], '%Y-%m-%d').strftime('%m-%d')), 'Recuperados', 'Decesos', 'Índice de riesgo', 'Casos por millón de habitantes']
   view_df = pd.DataFrame(view, columns=view_cols).sort_values('Casos por millón de habitantes', ascending=False)
   with open('readme.md', 'a') as f:
     view_df.to_markdown(f, tablefmt='github', showindex=False, floatfmt=".3f")
   with open('dashboard.csv', 'w+') as f:
-    view_df.to_csv(f, index=False, columns = view_cols[:-1])
+    view_cols = view_cols.remove('Tendencia')
+    view_df.to_csv(f, index=False, columns = view_cols)
 
 def make_plot(name, series):
   output = 'plots/{}.png'.format(name.strip().lower().replace(" ", "-"))
@@ -51,14 +55,14 @@ def make_plot(name, series):
   return output
 
 def get_file_list():
-  last_week = [(datetime.today() - timedelta(days=i)).strftime('%Y-%m-%d') for i in range(1,8)]
+  last_week = [(datetime.today() - timedelta(days=i)).strftime('%Y-%m-%d') for i in range(1,15)]
   return [day for day in last_week if os.path.isfile('data/{}.csv'.format(day))]
 
 def make_dataframe(days):
-  df = pd.read_csv('data/{}.csv'.format(days[0]))
+  df = pd.read_csv('data/{}.csv'.format(days[0]))[['municipio', 'confirmados']]
   df = df.set_index('municipio')
   for day in days[1:]:
-    df2 = pd.read_csv('data/{}.csv'.format(day))
+    df2 = pd.read_csv('data/{}.csv'.format(day))[['municipio', 'confirmados']]
     df2 = df2.set_index('municipio')
     df = pd.concat([df, df2], axis=1, sort=False)
   df.columns = days
@@ -68,7 +72,7 @@ def intro(days):
   txt = [
     '> Casos confirmados de covid19 en Bolivia por municipio, de acuerdo a [esta visualización](https://datosagt2020.carto.com/builder/c1cdf57c-a007-4f3f-883a-c25ebdc50986/embed) mantenida por agetic datos',
     '_Actualizado el {a} con datos hasta el {u}_'.format(a=datetime.today().strftime('%Y/%m/%d'), u=days[0].replace('-','/')),
-    'Ordenados por el número de casos por millón de habitantes.']
+    '## Casos en las últimas dos semanas\n\nOrdenados por el número de casos por millón de habitantes']
   with open('readme.md', 'w+') as f:
     f.write('\n\n'.join(txt) + '\n\n')
 
@@ -76,14 +80,14 @@ def outro():
   txt = [
     '- Los datos hasta el 30 de abril provienen de esta [otra visualización](https://juliael.carto.com/builder/c70fa175-3e6a-4955-8088-89048c6e6886/embed) de agetic.',
     '- Los índices de riesgo fueron publicados el 7 de mayo por el gobierno en [este pdf](https://www.minsalud.gob.bo/images/Descarga/covid19/Indice_Riesgo_Municipal_070520.pdf)',
-    '- Existen muchas irregularidades en los nombres de municipios provistos por la fuente de datos de casos. Por eso prefiero construir un diccionario manual de códigos ine. Eso significa que cuando se registre un caso en un nuevo municipio, las columnas de contexto estarán temporalmente vacías.',
-    '- Puedes descargar los datos de la tabla de encima en [este enlace](https://raw.githubusercontent.com/mauforonda/casos-municipios/master/dashboard.csv)']
+    '- Puedes descargar los datos de la tabla de encima en [este enlace](https://raw.githubusercontent.com/mauforonda/casos-municipios/master/dashboard.csv)',
+    '- Todas las irregularidades, como casos que desaparecen, gentileza de Agetic Datos.']
   with open('readme.md', 'a') as f:
     f.write('\n\n---\n\n' + '\n\n'.join(txt))
     
 days = get_file_list()
 intro(days)
 df = make_dataframe(days)
-make_table(df)
+make_table(df[df[days[0]] > 0])
 outro()
 

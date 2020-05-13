@@ -1,71 +1,80 @@
 > Casos confirmados de covid19 en Bolivia por municipio, de acuerdo a [esta visualización](https://datosagt2020.carto.com/builder/c1cdf57c-a007-4f3f-883a-c25ebdc50986/embed) mantenida por agetic datos
 
-_Actualizado el 2020/05/08 con datos hasta el 2020/05/06_
+_Actualizado el 2020/05/13 con datos hasta el 2020/05/09_
 
-Ordenados por el número de casos por millón de habitantes.
+## Casos en las últimas dos semanas
 
-| Departamento   | Municipio               |   Casos |   Último Día |   Desde 2020-05-03 | Riesgo   |   Índice |   Casos por millón de habitantes | Tendencia                                      |
-|----------------|-------------------------|---------|--------------|--------------------|----------|----------|----------------------------------|------------------------------------------------|
-| Santa Cruz     | Montero                 |     273 |           22 |                 34 | ALTO     |    0.361 |                             2008 | <img src="plots/montero.png"/>                 |
-| Oruro          | Eucaliptus              |       9 |            0 |                  0 | ALTO     |    0.355 |                             1810 | <img src="plots/eucaliptus.png"/>              |
-| Cochabamba     | Santibañez              |      12 |            0 |                  0 | ALTO     |    0.419 |                             1644 | <img src="plots/santibañez.png"/>              |
-| Beni           | Trinidad                |     210 |            0 |                  0 | ALTO     |    0.239 |                             1607 | <img src="plots/trinidad.png"/>                |
-| La Paz         | Cairoma                 |      12 |            0 |                  0 | ALTO     |    0.522 |                             1103 | <img src="plots/cairoma.png"/>                 |
-| La Paz         | Patacamaya              |      23 |            0 |                  0 | ALTO     |    0.549 |                              971 | <img src="plots/patacamaya.png"/>              |
-| Cochabamba     | Omereque                |       5 |            0 |                  0 | ALTO     |    0.612 |                              854 | <img src="plots/omereque.png"/>                |
-| Oruro          | Huanuni                 |      21 |            0 |                  0 | ALTO     |    0.637 |                              750 | <img src="plots/huanuni.png"/>                 |
-| Santa Cruz     | Santa Rosa              |      16 |            0 |                  0 | ALTO     |    0.632 |                              671 | <img src="plots/santa-rosa.png"/>              |
-| Oruro          | Santuario de Quillacas  |       3 |            0 |                  0 | ALTO     |    0.639 |                              670 | <img src="plots/santuario-de-quillacas.png"/>  |
-| Santa Cruz     | Mineros                 |      12 |            0 |                  2 | ALTO     |    0.702 |                              440 | <img src="plots/mineros.png"/>                 |
-| Santa Cruz     | Vallegrande             |       8 |            0 |                  0 | ALTO     |    0.675 |                              433 | <img src="plots/vallegrande.png"/>             |
-| Santa Cruz     | Moro Moro               |       1 |            1 |                  1 | MEDIO    |    0.911 |                              393 | <img src="plots/moro-moro.png"/>               |
-| Santa Cruz     | Robore                  |       6 |            1 |                  1 | ALTO     |    0.695 |                              367 | <img src="plots/robore.png"/>                  |
-| Santa Cruz     | Santa Cruz de la Sierra |     628 |           63 |                113 | ALTO     |    0.655 |                              364 | <img src="plots/santa-cruz-de-la-sierra.png"/> |
-| Santa Cruz     | Genreal Saavedra        |       5 |            0 |                  0 | ALTO     |    0.703 |                              355 | <img src="plots/genreal-saavedra.png"/>        |
-| Santa Cruz     | La Guardia              |      58 |            7 |                 11 | ALTO     |    0.661 |                              326 | <img src="plots/la-guardia.png"/>              |
-| Cochabamba     | Punata                  |       9 |            0 |                  0 | ALTO     |    0.724 |                              272 | <img src="plots/punata.png"/>                  |
-| Oruro          | Oruro                   |      80 |            2 |                  2 | ALTO     |    0.713 |                              264 | <img src="plots/oruro.png"/>                   |
-| Santa Cruz     | Mairana                 |       3 |            2 |                  2 | ALTO     |    0.764 |                              227 | <img src="plots/mairana.png"/>                 |
-| Santa Cruz     | El Torno                |      13 |            0 |                  2 | ALTO     |    0.684 |                              205 | <img src="plots/el-torno.png"/>                |
-| Potosí         | Colcha K                |       3 |            0 |                  0 | ALTO     |    0.818 |                              187 | <img src="plots/colcha-k.png"/>                |
-| La Paz         | La Paz                  |     141 |           10 |                 12 | ALTO     |    0.669 |                              172 | <img src="plots/la-paz.png"/>                  |
-| Santa Cruz     | Pailon                  |       8 |            0 |                  0 | ALTO     |    0.750 |                              168 | <img src="plots/pailon.png"/>                  |
-| La Paz         | Malla                   |       1 |            0 |                  0 | ALTO     |    0.732 |                              161 | <img src="plots/malla.png"/>                   |
-| Santa Cruz     | Portachuelo             |       3 |            0 |                  0 | ALTO     |    0.745 |                              152 | <img src="plots/portachuelo.png"/>             |
-| Pando          | Cobija                  |      12 |            0 |                  0 | ALTO     |    0.710 |                              152 | <img src="plots/cobija.png"/>                  |
-| Santa Cruz     | Cotoca                  |       8 |            0 |                  0 | ALTO     |    0.693 |                              145 | <img src="plots/cotoca.png"/>                  |
-| Potosí         | Potosi                  |      29 |            0 |                  7 | ALTO     |    0.811 |                              131 | <img src="plots/potosi.png"/>                  |
-| Santa Cruz     | Warnes                  |      27 |            5 |                  7 | ALTO     |    0.702 |                              126 | <img src="plots/warnes.png"/>                  |
-| Cochabamba     | Quillacollo             |      18 |            0 |                  0 | ALTO     |    0.714 |                              106 | <img src="plots/quillacollo.png"/>             |
-| Santa Cruz     | Samaipata               |       1 |            1 |                  1 | MEDIO    |    0.916 |                               85 | <img src="plots/samaipata.png"/>               |
-| Potosí         | Uyuni                   |       3 |            2 |                  2 | ALTO     |    0.856 |                               75 | <img src="plots/uyuni.png"/>                   |
-| Santa Cruz     | Buena Vista             |       1 |            0 |                  0 | ALTO     |    0.761 |                               75 | <img src="plots/buena-vista.png"/>             |
-| La Paz         | El Alto                 |      71 |            0 |                  0 | ALTO     |    0.694 |                               75 | <img src="plots/el-alto.png"/>                 |
-| La Paz         | Copacabana              |       1 |            0 |                  0 | ALTO     |    0.743 |                               65 | <img src="plots/copacabana.png"/>              |
-| Santa Cruz     | Cabezas                 |       2 |            0 |                  2 | MEDIO    |    0.925 |                               62 | <img src="plots/cabezas.png"/>                 |
-| Santa Cruz     | Porongo (Ayacucho)      |       1 |            0 |                  0 | ALTO     |    0.707 |                               58 | <img src="plots/porongo-(ayacucho).png"/>      |
-| Santa Cruz     | Camiri                  |       2 |            0 |                  0 | ALTO     |    0.767 |                               54 | <img src="plots/camiri.png"/>                  |
-| La Paz         | Chulumani               |       1 |           -1 |                  0 | ALTO     |    0.758 |                               46 | <img src="plots/chulumani.png"/>               |
-| Santa Cruz     | San Julián              |       3 |            2 |                  2 | ALTO     |    0.752 |                               44 | <img src="plots/san-julián.png"/>              |
-| Beni           | Moxos                   |       1 |            0 |                  0 | ALTO     |    0.615 |                               44 | <img src="plots/moxos.png"/>                   |
-| Santa Cruz     | San Carlos              |       1 |            0 |                  0 | ALTO     |    0.772 |                               42 | <img src="plots/san-carlos.png"/>              |
-| Santa Cruz     | San Pedro               |       1 |            0 |                  0 | ALTO     |    0.776 |                               41 | <img src="plots/san-pedro.png"/>               |
-| Cochabamba     | Cliza                   |       1 |            0 |                  0 | ALTO     |    0.702 |                               41 | <img src="plots/cliza.png"/>                   |
-| Cochabamba     | Cochabamba              |      30 |            0 |                  0 | ALTO     |    0.726 |                               41 | <img src="plots/cochabamba.png"/>              |
-| Santa Cruz     | Concepcion              |       1 |            0 |                  0 | ALTO     |    0.774 |                               41 | <img src="plots/concepcion.png"/>              |
-| Santa Cruz     | Puerto Suarez           |       1 |            0 |                  1 | MEDIO    |    0.924 |                               40 | <img src="plots/puerto-suarez.png"/>           |
-| La Paz         | Laja                    |       1 |            0 |                  0 | ALTO     |    0.695 |                               38 | <img src="plots/laja.png"/>                    |
-| Cochabamba     | Chimore                 |       1 |            0 |                  0 | ALTO     |    0.799 |                               37 | <img src="plots/chimore.png"/>                 |
-| Cochabamba     | Colcapirhua             |       2 |            0 |                  1 | ALTO     |    0.737 |                               33 | <img src="plots/colcapirhua.png"/>             |
-| Beni           | Guayaramerin            |       1 |            0 |                  0 | ALTO     |    0.620 |                               22 | <img src="plots/guayaramerin.png"/>            |
-| La Paz         | Achacachi               |       1 |            0 |                  0 | ALTO     |    0.756 |                               21 | <img src="plots/achacachi.png"/>               |
-| Chuquisaca     | Sucre                   |       6 |            1 |                  2 | ALTO     |    0.898 |                               20 | <img src="plots/sucre.png"/>                   |
-| Tarija         | Tarija                  |       5 |            2 |                  2 | ALTO     |    0.771 |                               18 | <img src="plots/tarija.png"/>                  |
-| Cochabamba     | Vinto                   |       1 |            0 |                  0 | ALTO     |    0.738 |                               16 | <img src="plots/vinto.png"/>                   |
-| Cochabamba     | Sacaba                  |       3 |            0 |                  0 | ALTO     |    0.738 |                               14 | <img src="plots/sacaba.png"/>                  |
-| La Paz         | Viacha                  |       1 |            0 |                  0 | ALTO     |    0.707 |                               11 | <img src="plots/viacha.png"/>                  |
-| Tarija         | Yacuiba                 |       1 |            0 |                  1 | ALTO     |    0.892 |                                9 | <img src="plots/yacuiba.png"/>                 |
-| Cochabamba     | Capinota                |       0 |            0 |                  0 | MEDIO    |    0.926 |                                0 | <img src="plots/capinota.png"/>                |
+Ordenados por el número de casos por millón de habitantes
+
+| Departamento   | Municipio               |   Confirmados | Tendencia                                      |   Desde el 04-29 |   Recuperados |   Decesos |   Índice de riesgo |   Casos por millón de habitantes |
+|----------------|-------------------------|---------------|------------------------------------------------|------------------|---------------|-----------|--------------------|----------------------------------|
+| Santa Cruz     | Montero                 |           368 | <img src="plots/montero.png"/>                 |              221 |            11 |        11 |              0.361 |                             2707 |
+| Beni           | Trinidad                |           309 | <img src="plots/trinidad.png"/>                |              243 |             0 |        23 |              0.239 |                             2364 |
+| Oruro          | Eucaliptus              |            11 | <img src="plots/eucaliptus.png"/>              |                2 |             0 |         4 |              0.355 |                             2212 |
+| Cochabamba     | Santibañez              |            12 | <img src="plots/santibañez.png"/>              |                0 |             8 |         0 |              0.419 |                             1644 |
+| La Paz         | Patacamaya              |            27 | <img src="plots/patacamaya.png"/>              |                4 |             3 |         1 |              0.549 |                             1140 |
+| Oruro          | Huanuni                 |            29 | <img src="plots/huanuni.png"/>                 |                9 |             4 |         0 |              0.637 |                             1036 |
+| La Paz         | Cairoma                 |            11 | <img src="plots/cairoma.png"/>                 |               -1 |             1 |         0 |              0.522 |                             1011 |
+| Cochabamba     | Omereque                |             5 | <img src="plots/omereque.png"/>                |                0 |             4 |         0 |              0.612 |                              854 |
+| Santa Cruz     | Moro Moro               |             2 | <img src="plots/moro-moro.png"/>               |                2 |             0 |         0 |              0.911 |                              787 |
+| Santa Cruz     | Mineros                 |            20 | <img src="plots/mineros.png"/>                 |               19 |             0 |         0 |              0.702 |                              733 |
+| Santa Cruz     | Santa Rosa              |            16 | <img src="plots/santa-rosa.png"/>              |                0 |             0 |         0 |              0.632 |                              671 |
+| Oruro          | Santuario de Quillacas  |             3 | <img src="plots/santuario-de-quillacas.png"/>  |                0 |             2 |         0 |              0.639 |                              670 |
+| Santa Cruz     | Genreal Saavedra        |             8 | <img src="plots/genreal-saavedra.png"/>        |                3 |             0 |         0 |              0.703 |                              568 |
+| Santa Cruz     | Santa Cruz de la Sierra |           910 | <img src="plots/santa-cruz-de-la-sierra.png"/> |              549 |            48 |        38 |              0.655 |                              528 |
+| Santa Cruz     | Portachuelo             |            10 | <img src="plots/portachuelo.png"/>             |                9 |             0 |         0 |              0.745 |                              506 |
+| Santa Cruz     | Vallegrande             |             8 | <img src="plots/vallegrande.png"/>             |                0 |             4 |         0 |              0.675 |                              433 |
+| Santa Cruz     | El Torno                |            27 | <img src="plots/el-torno.png"/>                |               23 |             0 |         0 |              0.684 |                              426 |
+| Santa Cruz     | La Guardia              |            72 | <img src="plots/la-guardia.png"/>              |               38 |             0 |         3 |              0.661 |                              405 |
+| Santa Cruz     | Mairana                 |             5 | <img src="plots/mairana.png"/>                 |                4 |             0 |         1 |              0.764 |                              378 |
+| Santa Cruz     | San Pedro               |             9 | <img src="plots/san-pedro.png"/>               |                8 |             0 |         0 |              0.776 |                              373 |
+| Santa Cruz     | Robore                  |             6 | <img src="plots/robore.png"/>                  |                1 |             3 |         1 |              0.695 |                              367 |
+| Cochabamba     | Punata                  |             9 | <img src="plots/punata.png"/>                  |                0 |             0 |         1 |              0.724 |                              272 |
+| Oruro          | Oruro                   |            78 | <img src="plots/oruro.png"/>                   |                8 |            22 |         5 |              0.713 |                              257 |
+| Santa Cruz     | Pailon                  |             9 | <img src="plots/pailon.png"/>                  |                6 |             0 |         0 |              0.750 |                              189 |
+| Potosí         | Colcha K                |             3 | <img src="plots/colcha-k.png"/>                |                0 |             0 |         0 |              0.818 |                              187 |
+| La Paz         | La Paz                  |           140 | <img src="plots/la-paz.png"/>                  |               34 |            30 |         7 |              0.669 |                              171 |
+| Santa Cruz     | Colpa Bélgica           |             1 | <img src="plots/colpa-bélgica.png"/>           |                1 |             0 |         0 |              0.922 |                              163 |
+| La Paz         | Malla                   |             1 | <img src="plots/malla.png"/>                   |                0 |             0 |         0 |              0.732 |                              161 |
+| Pando          | Cobija                  |            12 | <img src="plots/cobija.png"/>                  |                0 |             6 |         1 |              0.710 |                              152 |
+| Santa Cruz     | Buena Vista             |             2 | <img src="plots/buena-vista.png"/>             |                1 |             0 |         0 |              0.761 |                              151 |
+| Santa Cruz     | Warnes                  |            32 | <img src="plots/warnes.png"/>                  |               16 |             0 |         1 |              0.702 |                              149 |
+| Santa Cruz     | Cotoca                  |             8 | <img src="plots/cotoca.png"/>                  |                1 |             0 |         0 |              0.693 |                              145 |
+| Potosí         | Potosi                  |            29 | <img src="plots/potosi.png"/>                  |                7 |             2 |         1 |              0.811 |                              131 |
+| Cochabamba     | Quillacollo             |            20 | <img src="plots/quillacollo.png"/>             |                2 |             0 |         1 |              0.714 |                              118 |
+| Santa Cruz     | Porongo (Ayacucho)      |             2 | <img src="plots/porongo-(ayacucho).png"/>      |                1 |             1 |         0 |              0.707 |                              117 |
+| La Paz         | El Alto                 |           111 | <img src="plots/el-alto.png"/>                 |               55 |            10 |         8 |              0.694 |                              117 |
+| Santa Cruz     | San Juan de Yapacaní    |             7 | <img src="plots/san-juan-de-yapacaní.png"/>    |                7 |             0 |         0 |              0.896 |                               90 |
+| Beni           | San Ignacio de Moxos    |             2 | <img src="plots/san-ignacio-de-moxos.png"/>    |                2 |             0 |         0 |              0.615 |                               88 |
+| Santa Cruz     | Samaipata               |             1 | <img src="plots/samaipata.png"/>               |                1 |             0 |         0 |              0.916 |                               85 |
+| Santa Cruz     | Camiri                  |             3 | <img src="plots/camiri.png"/>                  |                3 |             0 |         0 |              0.767 |                               82 |
+| La Paz         | Cajuata                 |             1 | <img src="plots/cajuata.png"/>                 |                1 |             0 |         0 |              0.921 |                               81 |
+| Potosí         | Uyuni                   |             3 | <img src="plots/uyuni.png"/>                   |                2 |             0 |         0 |              0.856 |                               75 |
+| Santa Cruz     | Cuatro Cañadas          |             2 | <img src="plots/cuatro-cañadas.png"/>          |                2 |             0 |         1 |              0.927 |                               69 |
+| La Paz         | Copacabana              |             1 | <img src="plots/copacabana.png"/>              |                0 |             1 |         0 |              0.743 |                               65 |
+| Santa Cruz     | Cabezas                 |             2 | <img src="plots/cabezas.png"/>                 |                2 |             0 |         0 |              0.925 |                               62 |
+| Cochabamba     | Cochabamba              |            41 | <img src="plots/cochabamba.png"/>              |               10 |            10 |         2 |              0.726 |                               56 |
+| La Paz         | Viacha                  |             5 | <img src="plots/viacha.png"/>                  |                4 |             0 |         0 |              0.707 |                               55 |
+| Chuquisaca     | Culpina                 |             1 | <img src="plots/culpina.png"/>                 |                1 |             0 |         0 |              0.932 |                               53 |
+| Santa Cruz     | Fernández Alonzo        |             1 | <img src="plots/fernández-alonzo.png"/>        |                1 |             0 |         0 |              0.925 |                               50 |
+| La Paz         | Chulumani               |             1 | <img src="plots/chulumani.png"/>               |                0 |             0 |         0 |              0.758 |                               46 |
+| Santa Cruz     | San Julián              |             3 | <img src="plots/san-julián.png"/>              |                2 |             0 |         0 |              0.752 |                               44 |
+| Chuquisaca     | Sucre                   |            13 | <img src="plots/sucre.png"/>                   |               10 |             1 |         1 |              0.898 |                               43 |
+| Santa Cruz     | San Carlos              |             1 | <img src="plots/san-carlos.png"/>              |                0 |             1 |         0 |              0.772 |                               42 |
+| Cochabamba     | Cliza                   |             1 | <img src="plots/cliza.png"/>                   |                0 |             0 |         1 |              0.702 |                               41 |
+| Santa Cruz     | Concepcion              |             1 | <img src="plots/concepcion.png"/>              |                0 |             0 |         0 |              0.774 |                               41 |
+| Santa Cruz     | Puerto Suarez           |             1 | <img src="plots/puerto-suarez.png"/>           |                1 |             0 |         0 |              0.924 |                               40 |
+| Tarija         | San Lorenzo             |             1 | <img src="plots/san-lorenzo.png"/>             |                1 |             0 |         0 |              0.914 |                               38 |
+| La Paz         | Laja                    |             1 | <img src="plots/laja.png"/>                    |                0 |             0 |         0 |              0.695 |                               38 |
+| Cochabamba     | Chimore                 |             1 | <img src="plots/chimore.png"/>                 |                0 |             1 |         0 |              0.799 |                               37 |
+| Cochabamba     | Colcapirhua             |             2 | <img src="plots/colcapirhua.png"/>             |                1 |             1 |         0 |              0.737 |                               33 |
+| La Paz         | Sica Sica               |             1 | <img src="plots/sica-sica.png"/>               |                1 |             0 |         0 |              0.919 |                               31 |
+| Tarija         | Tarija                  |             8 | <img src="plots/tarija.png"/>                  |                5 |             0 |         0 |              0.771 |                               29 |
+| Beni           | Guayaramerin            |             1 | <img src="plots/guayaramerin.png"/>            |                1 |             0 |         0 |              0.620 |                               22 |
+| La Paz         | Achacachi               |             1 | <img src="plots/achacachi.png"/>               |                1 |             0 |         0 |              0.756 |                               21 |
+| Cochabamba     | Vinto                   |             1 | <img src="plots/vinto.png"/>                   |                1 |             0 |         0 |              0.738 |                               16 |
+| Cochabamba     | Sacaba                  |             3 | <img src="plots/sacaba.png"/>                  |                1 |             1 |         1 |              0.738 |                               14 |
+| Tarija         | Yacuiba                 |             1 | <img src="plots/yacuiba.png"/>                 |                1 |             0 |         1 |              0.892 |                                9 |
 
 ---
 
@@ -73,6 +82,6 @@ Ordenados por el número de casos por millón de habitantes.
 
 - Los índices de riesgo fueron publicados el 7 de mayo por el gobierno en [este pdf](https://www.minsalud.gob.bo/images/Descarga/covid19/Indice_Riesgo_Municipal_070520.pdf)
 
-- Existen muchas irregularidades en los nombres de municipios provistos por la fuente de datos de casos. Por eso prefiero construir un diccionario manual de códigos ine. Eso significa que cuando se registre un caso en un nuevo municipio, las columnas de contexto estarán temporalmente vacías.
-
 - Puedes descargar los datos de la tabla de encima en [este enlace](https://raw.githubusercontent.com/mauforonda/casos-municipios/master/dashboard.csv)
+
+- Todas las irregularidades, como casos que desaparecen, gentileza de Agetic Datos.
