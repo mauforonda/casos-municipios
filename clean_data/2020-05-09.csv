@@ -1,0 +1,68 @@
+departamento,municipio,cod_ine,confirmados,recuperados,decesos
+Chuquisaca,Sucre,10101,13.0,1.0,1.0
+Chuquisaca,Culpina,10902,1.0,0.0,0.0
+La Paz,Nuestra Señora de La Paz,20101,140.0,30.0,7.0
+La Paz,El Alto,20105,111.0,10.0,8.0
+La Paz,Achacachi,20201,1.0,0.0,0.0
+La Paz,Viacha,20801,5.0,0.0,0.0
+La Paz,Malla,20904,1.0,0.0,0.0
+La Paz,Cairoma,20905,11.0,1.0,0.0
+La Paz,Cajuata,21003,1.0,0.0,0.0
+La Paz,Chulumani,21101,1.0,0.0,0.0
+La Paz,Laja,21202,1.0,0.0,0.0
+La Paz,Sicasica,21301,1.0,0.0,0.0
+La Paz,Patacamaya,21305,27.0,3.0,1.0
+La Paz,Copacabana,21701,1.0,1.0,0.0
+Cochabamba,Cochabamba,30101,41.0,10.0,2.0
+Cochabamba,Omereque,30203,5.0,4.0,0.0
+Cochabamba,Santivañez,30702,12.0,8.0,0.0
+Cochabamba,Cliza,30801,1.0,0.0,1.0
+Cochabamba,Quillacollo,30901,20.0,0.0,1.0
+Cochabamba,Vinto,30904,1.0,0.0,0.0
+Cochabamba,Colcapirhua,30905,2.0,1.0,0.0
+Cochabamba,Sacaba,31001,3.0,1.0,1.0
+Cochabamba,Chimoré,31204,1.0,1.0,0.0
+Cochabamba,Punata,31401,9.0,0.0,1.0
+Oruro,Oruro,40101,78.0,22.0,5.0
+Oruro,Santuario de Quillacas,40202,3.0,2.0,0.0
+Oruro,Huanuni,40701,29.0,4.0,0.0
+Oruro,Eucaliptus,41101,11.0,0.0,4.0
+Potosí,Potosí,50101,29.0,2.0,1.0
+Potosí,"Colcha ""K""",50901,3.0,0.0,0.0
+Potosí,Uyuni,51201,3.0,0.0,0.0
+Tarija,Tarija,60101,8.0,0.0,0.0
+Tarija,Yacuiba,60301,1.0,0.0,1.0
+Tarija,San Lorenzo,60501,1.0,0.0,0.0
+Santa Cruz,Santa Cruz de la Sierra,70101,910.0,48.0,38.0
+Santa Cruz,Cotoca,70102,8.0,0.0,0.0
+Santa Cruz,Porongo,70103,2.0,1.0,0.0
+Santa Cruz,La Guardia,70104,72.0,0.0,3.0
+Santa Cruz,El Torno,70105,27.0,0.0,0.0
+Santa Cruz,Warnes,70201,32.0,0.0,1.0
+Santa Cruz,Buena Vista,70401,2.0,0.0,0.0
+Santa Cruz,San Carlos,70402,1.0,1.0,0.0
+Santa Cruz,Yapacaní,70403,7.0,0.0,0.0
+Santa Cruz,Pailón,70502,9.0,0.0,0.0
+Santa Cruz,Roboré,70503,6.0,3.0,1.0
+Santa Cruz,Portachuelo,70601,10.0,0.0,0.0
+Santa Cruz,Santa Rosa,70602,16.0,0.0,0.0
+Santa Cruz,Colpa Bélgica,70603,1.0,0.0,0.0
+Santa Cruz,Cabezas,70703,2.0,0.0,0.0
+Santa Cruz,Camiri,70706,3.0,0.0,0.0
+Santa Cruz,Vallegrande,70801,8.0,4.0,0.0
+Santa Cruz,Moromoro,70803,2.0,0.0,0.0
+Santa Cruz,Samaipata,70901,1.0,0.0,0.0
+Santa Cruz,Mairana,70903,5.0,0.0,1.0
+Santa Cruz,Montero,71001,368.0,11.0,11.0
+Santa Cruz,General Saavedra,71002,8.0,0.0,0.0
+Santa Cruz,Mineros,71003,20.0,0.0,0.0
+Santa Cruz,Fernández Alonso,71004,1.0,0.0,0.0
+Santa Cruz,San Pedro,71005,9.0,0.0,0.0
+Santa Cruz,Concepción,71101,1.0,0.0,0.0
+Santa Cruz,San Antonio de Lomerio,71104,3.0,0.0,0.0
+Santa Cruz,Cuatro Cañadas,71106,2.0,0.0,1.0
+Santa Cruz,Puerto Suarez,71401,1.0,0.0,0.0
+Beni,Trinidad,80101,309.0,0.0,23.0
+Beni,Guayaramerín,80202,1.0,0.0,0.0
+Beni,San Ignacio,80501,2.0,0.0,0.0
+Pando,Cobija,90101,12.0,6.0,1.0
