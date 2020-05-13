@@ -31,17 +31,17 @@ def make_table(df):
                  mun.name,
                  int(mun[0]),
                  '<img src="{}"/>'.format(path),
+                 perthous,
                  int(mun[0] - mun[-1]),
                  recuperados,
                  decesos,
-                 indice,
-                 perthous])
-  view_cols = ['Departamento', 'Municipio', 'Confirmados', 'Tendencia', 'Desde el {}'.format(datetime.strptime(df.columns[-1], '%Y-%m-%d').strftime('%m-%d')), 'Recuperados', 'Decesos', 'Índice de riesgo', 'Casos por millón de habitantes']
+                 indice])
+  view_cols = ['Departamento', 'Municipio', 'Casos', 'Tendencia', 'Desde el {}'.format(datetime.strptime(df.columns[-1], '%Y-%m-%d').strftime('%m-%d')), 'Casos por millón de habitantes', 'Recuperados', 'Decesos', 'Índice de riesgo']
   view_df = pd.DataFrame(view, columns=view_cols).sort_values('Casos por millón de habitantes', ascending=False)
   with open('readme.md', 'a') as f:
     view_df.to_markdown(f, tablefmt='github', showindex=False, floatfmt=".3f")
   with open('dashboard.csv', 'w+') as f:
-    view_cols = view_cols.remove('Tendencia')
+    view_cols.remove('Tendencia')
     view_df.to_csv(f, index=False, columns = view_cols)
 
 def make_plot(name, series):
