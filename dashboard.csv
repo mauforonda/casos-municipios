@@ -1,68 +1,84 @@
-Departamento,Municipio,Casos,Casos por millón de habitantes,Desde el 05-03,Recuperados,Decesos,Índice de riesgo
-Santa Cruz,Montero,368,2707,129,11,11,0.406
-Beni,Trinidad,309,2364,99,0,23,0.452
+Departamento,Municipio,Casos,Casos por millón de habitantes,Desde el 05-04,Recuperados,Decesos,Índice de riesgo
+Beni,Trinidad,534,4087,324,0,39,0.452
+Santa Cruz,Montero,523,3847,272,11,17,0.406
+Santa Cruz,Moro Moro,8,3148,8,0,0,0.624
+Santa Cruz,Colpa Bélgica,14,2283,14,0,1,0.897
 Oruro,Eucaliptus,11,2212,2,0,4,0.703
+Santa Cruz,Portachuelo,34,1722,31,0,1,0.6579999999999999
 Cochabamba,Santibañez,12,1644,0,8,0,0.828
-La Paz,Patacamaya,27,1140,4,3,1,0.731
-Oruro,Huanuni,29,1036,8,4,0,0.765
+Santa Cruz,Mairana,19,1439,18,0,2,0.73
+Santa Cruz,San Pedro,32,1329,31,0,0,0.547
+Oruro,Huanuni,33,1179,12,4,0,0.765
+Santa Cruz,Fernández Alonzo,23,1161,23,0,1,0.9179999999999999
+La Paz,Patacamaya,27,1140,4,3,2,0.731
+Santa Cruz,Genreal Saavedra,15,1066,10,0,0,0.7090000000000001
+Santa Cruz,Mineros,29,1063,17,0,0,0.7020000000000001
 La Paz,Cairoma,11,1011,-1,1,0,0.826
+Santa Cruz,Santa Cruz de la Sierra,1501,871,936,48,55,0.691
 Cochabamba,Omereque,5,854,0,4,0,0.866
-Santa Cruz,Moro Moro,2,787,2,0,0,0.624
-Santa Cruz,Mineros,20,733,10,0,0,0.7020000000000001
-Santa Cruz,Santa Rosa,16,671,0,0,0,0.7509999999999999
+Santa Cruz,Santa Rosa,19,797,3,0,0,0.7509999999999999
+Beni,San Andres,10,748,10,0,0,0.9440000000000001
 Oruro,Santuario de Quillacas,3,670,0,2,0,0.7829999999999999
-Santa Cruz,Genreal Saavedra,8,568,3,0,0,0.7090000000000001
-Santa Cruz,Santa Cruz de la Sierra,910,528,395,48,38,0.691
-Santa Cruz,Portachuelo,10,506,7,0,0,0.6579999999999999
-Santa Cruz,Vallegrande,8,433,0,4,0,0.813
-Santa Cruz,El Torno,27,426,16,0,0,0.64
-Santa Cruz,La Guardia,72,405,25,0,3,0.723
-Santa Cruz,Mairana,5,378,4,0,1,0.73
-Santa Cruz,San Pedro,9,373,8,0,0,0.547
-Santa Cruz,Robore,6,367,1,3,1,0.8240000000000001
-Cochabamba,Punata,9,272,0,0,1,0.81
-Oruro,Oruro,78,257,0,22,5,0.8059999999999999
-Santa Cruz,Pailon,9,189,1,0,0,0.821
-Potosí,Colcha K,3,187,0,0,0,0.863
-La Paz,La Paz,140,171,11,30,7,0.75
-Santa Cruz,Colpa Bélgica,1,163,1,0,0,0.897
+Santa Cruz,El Torno,42,663,29,0,1,0.64
+Santa Cruz,San Juan de Yapacaní,7,654,7,0,0,0.8190000000000001
+Santa Cruz,La Guardia,101,568,50,0,3,0.723
+La Paz,Umala,4,493,4,0,0,0.904
+Santa Cruz,Vallegrande,9,487,1,4,0,0.813
+Santa Cruz,Robore,7,429,2,3,1,0.8240000000000001
+Cochabamba,San Benito,7,409,7,0,1,0.922
+Cochabamba,Sipe Sipe,18,381,18,0,1,0.87
+Santa Cruz,Buena Vista,5,379,4,0,0,0.733
+Santa Cruz,Warnes,77,359,55,0,1,0.7609999999999999
+Oruro,Oruro,86,284,8,22,5,0.8059999999999999
+Potosí,Colcha K,4,250,1,0,0,0.863
+Cochabamba,Punata,8,242,-1,0,1,0.81
+Cochabamba,Sacaba,50,239,47,1,1,0.7809999999999999
+Santa Cruz,Pailon,10,210,2,0,0,0.821
+Santa Cruz,Cotoca,11,200,3,0,0,0.779
+Santa Cruz,Camiri,7,191,5,0,0,0.7929999999999999
+La Paz,La Paz,152,186,21,30,8,0.75
+Santa Cruz,Porongo (Ayacucho),3,175,2,1,0,0.6890000000000001
+Santa Cruz,Samaipata,2,170,2,0,0,0.838
 La Paz,Malla,1,161,0,0,0,0.83
 Pando,Cobija,12,152,0,6,1,0.823
-Santa Cruz,Buena Vista,2,151,1,0,0,0.733
-Santa Cruz,Warnes,32,149,12,0,1,0.7609999999999999
-Santa Cruz,Cotoca,8,145,0,0,0,0.779
-Potosí,Potosi,29,131,7,2,1,0.851
-Cochabamba,Quillacollo,20,118,2,0,1,0.78
-Santa Cruz,Porongo (Ayacucho),2,117,1,1,0,0.6890000000000001
-La Paz,El Alto,111,117,40,10,8,0.772
-Santa Cruz,San Juan de Yapacaní,7,90,7,0,0,0.8959999999999999
+Cochabamba,Quillacollo,23,135,5,0,1,0.78
+La Paz,El Alto,126,133,55,10,8,0.772
+Potosí,Potosi,29,131,0,2,1,0.851
+Cochabamba,Tarata,1,114,1,0,0,0.922
+Beni,Guayaramerin,5,112,4,0,0,0.875
+Cochabamba,Vacas,1,109,1,0,0,0.9159999999999999
+Santa Cruz,Cuatro Cañadas,3,103,3,0,1,0.721
+Cochabamba,Anrani,1,99,1,0,0,0.9179999999999999
+Cochabamba,Cochabamba,71,98,41,10,2,0.762
+Santa Cruz,Cabezas,3,93,1,0,0,0.851
 Beni,San Ignacio de Moxos,2,88,2,0,0,0.7659999999999999
-Santa Cruz,Samaipata,1,85,1,0,0,0.838
-Santa Cruz,Camiri,3,82,1,0,0,0.7929999999999999
+Cochabamba,Cliza,2,83,1,0,1,0.841
+Santa Cruz,Concepcion,2,83,1,0,0,0.853
 La Paz,Cajuata,1,81,1,0,0,0.8440000000000001
+Santa Cruz,Yapacaní,6,77,6,0,0,0.8959999999999999
 Potosí,Uyuni,3,75,2,0,0,0.8809999999999999
-Santa Cruz,Cuatro Cañadas,2,69,2,0,1,0.721
+Santa Cruz,Okinawa Uno,1,70,1,0,0,0.924
 La Paz,Copacabana,1,65,0,1,0,0.8440000000000001
-Santa Cruz,Cabezas,2,62,2,0,0,0.851
-Cochabamba,Cochabamba,41,56,11,10,2,0.762
+La Paz,Sica Sica,2,62,2,0,1,0.8490000000000001
 La Paz,Viacha,5,55,4,0,0,0.79
 Chuquisaca,Culpina,1,53,1,0,0,0.868
-Santa Cruz,Fernández Alonzo,1,50,1,0,0,0.9179999999999999
-La Paz,Chulumani,1,46,0,0,0,0.8490000000000001
+Cochabamba,Villa Tunari,4,50,4,0,0,0.9059999999999999
+Chuquisaca,Sucre,14,47,9,1,2,0.755
+La Paz,Chulumani,1,46,-1,0,0,0.8490000000000001
 Santa Cruz,San Julián,3,44,2,0,0,0.825
-Chuquisaca,Sucre,13,43,9,1,1,0.755
+Cochabamba,Colomi,1,44,1,0,0,0.93
 Santa Cruz,San Carlos,1,42,0,1,0,0.857
-Cochabamba,Cliza,1,41,0,0,1,0.841
-Santa Cruz,Concepcion,1,41,0,0,0,0.853
-Santa Cruz,Puerto Suarez,1,40,1,0,0,0.853
+Tarija,Tarija,11,40,8,0,0,0.763
+Santa Cruz,Puerto Suarez,1,40,0,0,0,0.853
+Cochabamba,Ayopaya (V. de Independencia),1,40,1,0,0,0.9229999999999999
 Tarija,San Lorenzo,1,38,1,0,0,0.909
 La Paz,Laja,1,38,0,0,0,0.785
 Cochabamba,Chimore,1,37,0,1,0,0.872
-Cochabamba,Colcapirhua,2,33,1,1,0,0.7020000000000001
-La Paz,Sica Sica,1,31,1,0,0,0.8490000000000001
-Tarija,Tarija,8,29,5,0,0,0.763
-Beni,Guayaramerin,1,22,0,0,0,0.875
+Chuquisaca,Monteagudo,1,36,1,0,0,0.9440000000000001
+Cochabamba,Colcapirhua,2,33,0,1,0,0.7020000000000001
+Cochabamba,Vinto,2,32,1,0,1,0.805
+Cochabamba,Tiquipaya,2,30,2,0,0,0.872
+Cochabamba,Entre Rios,1,27,1,0,0,0.938
 La Paz,Achacachi,1,21,0,0,0,0.845
-Cochabamba,Vinto,1,16,0,0,0,0.805
-Cochabamba,Sacaba,3,14,0,1,1,0.7809999999999999
-Tarija,Yacuiba,1,9,1,0,1,0.747
+Cochabamba,Puerto Villarroel,1,19,1,0,0,0.907
+Tarija,Yacuiba,1,9,0,0,1,0.747

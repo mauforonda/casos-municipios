@@ -72,14 +72,14 @@ def intro(days):
   txt = [
     '> Casos confirmados de covid19 en Bolivia por municipio, de acuerdo a [esta visualización](https://datosagt2020.carto.com/builder/c1cdf57c-a007-4f3f-883a-c25ebdc50986/embed) mantenida por agetic datos',
     '_Actualizado el {a} con datos hasta el {u}_'.format(a=datetime.today().strftime('%Y/%m/%d'), u=days[0].replace('-','/')),
-    '## Casos en las últimas dos semanas\n\nOrdenados por el número de casos por millón de habitantes']
+    '## Casos por municipio\n\nOrdenados por el número de casos por millón de habitantes']
   with open('readme.md', 'w+') as f:
     f.write('\n\n'.join(txt) + '\n\n')
 
 def outro():
   txt = [
     '- Los datos hasta el 30 de abril provienen de esta [otra visualización](https://juliael.carto.com/builder/c70fa175-3e6a-4955-8088-89048c6e6886/embed) de agetic.',
-    '- Los índices de riesgo fueron publicados el 7 de mayo por el gobierno en [este pdf](https://www.minsalud.gob.bo/images/Descarga/covid19/Indice_Riesgo_Municipal_070520.pdf)',
+    '- Los índices de riesgo fueron publicados el 15 de mayo por el gobierno en [este pdf](https://www.minsalud.gob.bo/component/jdownloads/send/29-indice-riesgo-covid19/428-riesgo-municipal-covid-epid19)',
     '- Puedes descargar los datos de la tabla de encima en [este enlace](https://raw.githubusercontent.com/mauforonda/casos-municipios/master/dashboard.csv)',
     '- Todas las irregularidades, como casos que desaparecen, gentileza de Agetic Datos.']
   with open('readme.md', 'a') as f:
