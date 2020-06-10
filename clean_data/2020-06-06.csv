@@ -1,0 +1,124 @@
+departamento,municipio,cod_ine,confirmados,recuperados,decesos
+Chuquisaca,Sucre,10101,27,12,2
+Chuquisaca,Yotala,10102,1,0,0
+Chuquisaca,Villa Ricardo Mugia - Icla,10304,1,0,0
+Chuquisaca,Monteagudo,10501,7,1,0
+Chuquisaca,Culpina,10902,1,1,0
+Chuquisaca,Villa Vaca Guzmán,11001,2,0,0
+La Paz,Nuestra Señora de La Paz,20101,324,144,13
+La Paz,Achocalla,20104,10,0,0
+La Paz,El Alto,20105,264,84,16
+La Paz,Achacachi,20201,3,1,1
+La Paz,Sorata,20601,1,0,0
+La Paz,Guanay,20602,1,0,0
+La Paz,Teoponte,20608,1,0,0
+La Paz,Viacha,20801,59,2,0
+La Paz,Malla,20904,1,1,0
+La Paz,Cairoma,20905,11,11,0
+La Paz,Cajuata,21003,1,1,0
+La Paz,Colquiri,21004,6,0,0
+La Paz,Chulumani,21101,1,1,0
+La Paz,Palos Blancos,21104,1,0,0
+La Paz,La Asunta,21105,1,0,0
+La Paz,Laja,21202,1,0,0
+La Paz,Sicasica,21301,2,1,1
+La Paz,Umala,21302,12,2,2
+La Paz,Patacamaya,21305,31,18,2
+La Paz,Coripata,21402,1,0,0
+La Paz,Copacabana,21701,2,1,0
+La Paz,Caranavi,22001,3,2,0
+Cochabamba,Cochabamba,30101,377,23,12
+Cochabamba,Omereque,30203,5,5,0
+Cochabamba,Ayopaya,30301,1,0,0
+Cochabamba,Tarata,30401,2,0,0
+Cochabamba,Arani,30501,3,0,0
+Cochabamba,Vacas,30502,2,0,0
+Cochabamba,Capinota,30701,2,0,1
+Cochabamba,Santivañez,30702,14,12,1
+Cochabamba,Cliza,30801,2,1,1
+Cochabamba,Toco,30802,1,0,0
+Cochabamba,Tolata,30803,1,0,1
+Cochabamba,Quillacollo,30901,100,15,4
+Cochabamba,Sipesipe,30902,21,0,1
+Cochabamba,Tiquipaya,30903,8,0,0
+Cochabamba,Vinto,30904,16,0,1
+Cochabamba,Colcapirhua,30905,8,0,0
+Cochabamba,Sacaba,31001,176,1,5
+Cochabamba,Colomi,31002,4,0,2
+Cochabamba,Villa Tunari,31003,27,0,0
+Cochabamba,Chimoré,31204,32,1,1
+Cochabamba,Puerto Villarroel,31205,45,0,3
+Cochabamba,Entre Ríos,31206,110,0,16
+Cochabamba,Mizque,31301,1,0,0
+Cochabamba,Punata,31401,21,5,1
+Cochabamba,San Benito,31403,8,0,1
+Cochabamba,Bolivar,31501,1,0,0
+Cochabamba,Shinahota,31602,34,0,1
+Oruro,Oruro,40101,180,50,13
+Oruro,Santuario de Quillacas,40202,3,2,0
+Oruro,Huanuni,40701,55,16,5
+Oruro,Eucaliptus,41101,18,6,3
+Potosí,Potosí,50101,75,22,2
+Potosí,Uncía,50201,2,0,0
+Potosí,Llallagua,50203,85,3,2
+Potosí,"Colcha ""K""",50901,6,3,0
+Potosí,Uyuni,51201,3,3,0
+Tarija,Tarija,60101,32,9,1
+Tarija,Padcaya,60201,1,0,0
+Tarija,Yacuiba,60301,17,0,1
+Tarija,Caraparí,60302,2,0,0
+Tarija,Villa Montes,60303,5,0,2
+Tarija,San Lorenzo,60501,1,1,0
+Santa Cruz,Santa Cruz de la Sierra,70101,5765,961,150
+Santa Cruz,Cotoca,70102,59,3,2
+Santa Cruz,Porongo,70103,38,1,0
+Santa Cruz,La Guardia,70104,288,21,5
+Santa Cruz,El Torno,70105,140,19,1
+Santa Cruz,Warnes,70201,161,2,2
+Santa Cruz,Okinawa Uno,70202,8,0,0
+Santa Cruz,San Ignacio,70301,6,0,0
+Santa Cruz,Buena Vista,70401,15,1,0
+Santa Cruz,San Carlos,70402,21,1,0
+Santa Cruz,Yapacaní,70403,67,0,0
+Santa Cruz,San Juan,70404,24,0,0
+Santa Cruz,San José,70501,38,0,1
+Santa Cruz,Pailón,70502,51,0,1
+Santa Cruz,Roboré,70503,7,5,1
+Santa Cruz,Portachuelo,70601,144,0,2
+Santa Cruz,Santa Rosa,70602,27,5,0
+Santa Cruz,Colpa Bélgica,70603,51,0,2
+Santa Cruz,Lagunillas,70701,4,0,0
+Santa Cruz,Cabezas,70703,20,2,0
+Santa Cruz,Camiri,70706,27,9,0
+Santa Cruz,Vallegrande,70801,12,4,0
+Santa Cruz,Moromoro,70803,21,0,0
+Santa Cruz,Samaipata,70901,8,0,0
+Santa Cruz,Pampa Grande,70902,6,0,1
+Santa Cruz,Mairana,70903,27,1,2
+Santa Cruz,Quirusillas,70904,1,0,0
+Santa Cruz,Montero,71001,1115,320,38
+Santa Cruz,General Saavedra,71002,34,10,0
+Santa Cruz,Mineros,71003,77,26,4
+Santa Cruz,Fernández Alonso,71004,73,0,1
+Santa Cruz,San Pedro,71005,143,13,0
+Santa Cruz,Concepción,71101,5,0,0
+Santa Cruz,San Antonio de Lomerio,71104,17,2,0
+Santa Cruz,San Ramón,71105,6,0,0
+Santa Cruz,Cuatro Cañadas,71106,25,0,1
+Santa Cruz,San Matías,71201,3,0,0
+Santa Cruz,Puerto Suarez,71401,6,0,0
+Santa Cruz,Puerto Quijarro,71402,1,0,0
+Santa Cruz,Ascención de Guarayos,71501,15,0,0
+Beni,Trinidad,80101,2186,16,108
+Beni,Riberalta,80201,49,0,0
+Beni,Guayaramerín,80202,115,0,7
+Beni,San Borja,80302,1,0,0
+Beni,Santa Ana,80401,5,0,0
+Beni,Exaltación,80402,3,0,0
+Beni,San Ignacio,80501,6,0,0
+Beni,Loreto,80601,1,0,0
+Beni,San Andrés,80602,34,0,0
+Beni,San Joaquín,80701,18,0,1
+Beni,San Ramón,80702,54,0,2
+Pando,Cobija,90101,46,11,2
+Pando,Filadelfia,90203,1,0,0

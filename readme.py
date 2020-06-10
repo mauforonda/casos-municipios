@@ -18,6 +18,7 @@ def intro(current):
     f.write('\n\n'.join(txt) + '\n\n')
 
 def make_plot(name, series):
+  print(str(name))
   valid_name = unicodedata.normalize('NFKD', re.sub('[ \'\"]', '', name)).encode('ascii', 'ignore').decode('utf8')
   output = 'plots/{}.png'.format(valid_name)
   fig = series.sort_index().plot(figsize=(1,0.3), rot=0, legend=False, color='#e23e57', linewidth=2).get_figure()
@@ -29,7 +30,7 @@ def make_plot(name, series):
   return output
 
 def tendencias():
-  days = os.listdir('clean_data')
+  days = sorted(os.listdir('clean_data'), reverse=True)
   df = pd.read_csv('clean_data/{}'.format(days[0]))[['cod_ine', 'municipio', 'confirmados']]
   df = df.set_index('cod_ine')
   for day in days[1:]:
