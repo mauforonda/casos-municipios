@@ -18,9 +18,8 @@ def intro(current):
     f.write('\n\n'.join(txt) + '\n\n')
 
 def make_plot(name, series):
-  print(str(name))
-  valid_name = unicodedata.normalize('NFKD', re.sub('[ \'\"]', '', name)).encode('ascii', 'ignore').decode('utf8')
-  output = 'plots/{}.png'.format(valid_name)
+  # valid_name = unicodedata.normalize('NFKD', re.sub('[ \'\"]', '', name)).encode('ascii', 'ignore').decode('utf8')
+  output = 'plots/{}.png'.format(name)
   fig = series.sort_index().plot(figsize=(1,0.3), rot=0, legend=False, color='#e23e57', linewidth=2).get_figure()
   plt.box(False)
   plt.tick_params(axis='both', which='both', bottom=False, top=False, labelbottom=False, right=False, left=False, labelleft=False)
@@ -39,12 +38,13 @@ def tendencias():
     df = pd.concat([df, df2], axis=1, sort=False)
   df.columns = ['municipio'] + [day.split('.')[0] for day in days]
   df = df.fillna(0)
+  df = df[df['municipio'] != 0]
   plots = []
   for i in range(0, len(df)):
     mun = df.iloc[i]
     mun_series = mun[1:]
     mun_series.index = pd.to_datetime(mun_series.index)
-    plots.append(make_plot(mun[0], mun_series))
+    plots.append(make_plot(str(mun.name), mun_series))
   return days[0], plots
 
 def write_md(current, plots):
