@@ -1,3 +1,9 @@
+# Actualización
+
+AGETIC y el Ministerio de Salud ahora publican estos datos en formato abierto, con documentación y en su repositorio oficial. Simultáneamente han bloqueado la interfaz que usaba para extraer datos de su [mapa](https://datosagt2020.carto.com/builder/c1cdf57c-a007-4f3f-883a-c25ebdc50986/embed). Así que recomiendo utilizar sus datos ([datos\.gob\.bo](https://datos.gob.bo/dataset/casos-covid-19-acumulado-por-municipios)) y complementarlos con los datos en este repositorio cuando sea necesario, por ejemplo hasta la fecha (7 de agosto de 2020) el repositorio oficial sólo ofrece datos de casos desde el 16 de mayo. Además, estoy manteniendo un mirror automático de los datos oficiales, just in case, en [este otro proyecto](https://github.com/mauforonda/casos-covid-19-acumulado-por-municipios).
+
+---
+
 > Casos confirmados de covid19 en Bolivia por municipio, de acuerdo a [esta visualización](https://datosagt2020.carto.com/builder/c1cdf57c-a007-4f3f-883a-c25ebdc50986/embed) mantenida por agetic datos
 
 _Actualizado el 2020/07/30 con datos hasta el 2020/07/25_
