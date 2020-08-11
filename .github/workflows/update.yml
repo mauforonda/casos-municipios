@@ -26,21 +26,14 @@ jobs:
           pip install -r requirements.txt
       - name: update data
         run: |
-          echo ::set-output name=date::$(python update.py)
-        id: run_script
-      - name: update readme
-        if: steps.run_script.outputs.date != 'Nah'
-        run: |
-          python readme.py
+          python fetch.py
       - name: commit
         env:
-          DATE: ${{ steps.run_script.outputs.date }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: steps.run_script.outputs.date != 'Nah'
         run: |
           git config --global user.email "covid19-bot@example.com"
           git config --global user.name "covid19-bot"
           git add -A
           git status
-          git commit -m "[ci] $DATE"
+          git commit -m "[ci] actualización"
           git push -q "https://$GH_TOKEN@github.com/mauforonda/casos-municipios.git" master
