@@ -60,7 +60,7 @@ def write_md(current, plots):
 def update():
   ultimo_dia = datetime.strptime(sorted(os.listdir('clean_data'))[-1].split('.')[0], '%Y-%m-%d')
   datos = pd.read_csv('https://datosagt2020.carto.com/api/v2/sql?filename=mun_covid_se31&q=SELECT+*+FROM+(select+*+from+public.mun_covid_se31)+as+subq+&format=csv&bounds=&api_key=&skipfields=the_geom_webmercator')
-  dia = datetime.strptime('2020 6 {}'.format(str(datos.se[0])), '%Y %w %U')
+  dia = datetime.strptime('2020 6 {}'.format(str(datos.se[0] - 1)), '%Y %w %U')
   if dia > ultimo_dia:
     datos = datos[['codigo', 'confirmados', 'recuperados', 'fallecidos']]
     datos.index = datos['codigo']
