@@ -26,14 +26,17 @@ jobs:
           pip install -r requirements.txt
       - name: update data
         run: |
-          python fetch.py
+          echo ::set-output name=results::$(python fetch.py)
+        id: run_update_script
       - name: commit
+        if: steps.run_update_script.outputs.results != 0
         env:
+          DAY: ${{ steps.run_update_script.outputs.results }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.email "covid19-bot@example.com"
           git config --global user.name "covid19-bot"
           git add -A
           git status
-          git commit -m "[ci] actualización"
+          git commit -m "[ci] $DAY"
           git push -q "https://$GH_TOKEN@github.com/mauforonda/casos-municipios.git" master

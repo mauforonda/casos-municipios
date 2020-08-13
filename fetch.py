@@ -70,5 +70,8 @@ def update():
     df.to_csv('clean_data/{}.csv'.format(dia.strftime('%Y-%m-%d')), header=['departamento', 'municipio', 'cod_ine', 'confirmados', 'recuperados', 'decesos'], float_format='%0.f', index=False)   
     current, plots = tendencias()
     write_md(current, plots)
+    print(dia.strftime('%Y-%m-%d'))
+  else:
+    print(0)
 
 update()
