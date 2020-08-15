@@ -17,7 +17,7 @@ def intro(current):
   with open('readme.md', 'w+') as f:
     f.write('\n\n'.join(txt) + '\n\n')
 
-def write_md(current, plots):
+def write_md(current):
   intro(current)
 
 def update_data(tablename):
