@@ -16,10 +16,6 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: '3.6'
-      - name: install lfs
-        run: |
-          curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-          git lfs install
       - name: python install
         run: |
           python -m pip install --upgrade pip
