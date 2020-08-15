@@ -8,6 +8,7 @@ import time
 import os
 import unicodedata
 import re
+import requests
 
 def intro(current):
   txt = [
@@ -57,9 +58,9 @@ def write_md(current, plots):
   with open('readme.md', 'a') as f:
     df.to_markdown(f, tablefmt='github', showindex=False, headers=headers)
 
-def update():
+def update_data(tablename):
   ultimo_dia = datetime.strptime(sorted(os.listdir('clean_data'))[-1].split('.')[0], '%Y-%m-%d')
-  datos = pd.read_csv('https://datosagt2020.carto.com/api/v2/sql?filename=mun_covid_se31&q=SELECT+*+FROM+(select+*+from+public.mun_covid_se31)+as+subq+&format=csv&bounds=&api_key=&skipfields=the_geom_webmercator')
+  datos = pd.read_csv('https://datosagt2020.carto.com/api/v2/sql?filename={}&q=SELECT+*+FROM+(select+*+from+public.mun_covid_se31)+as+subq+&format=csv&bounds=&api_key=&skipfields=the_geom_webmercator'.format(tablename))
   dia = datetime.strptime('2020 6 {}'.format(str(datos.se[0] - 1)), '%Y %w %U')
   if dia > ultimo_dia:
     datos = datos[['codigo', 'confirmados', 'recuperados', 'fallecidos']]
@@ -74,4 +75,14 @@ def update():
   else:
     print(0)
 
-update()
+def fin_de_semana(semana):
+  return datetime.strptime('2020 6 {}'.format(str(int(semana) - 1)), '%Y %w %U')
+
+def check_source():
+  ultimo_dia = datetime.strptime(sorted(os.listdir('clean_data'))[-1].split('.')[0], '%Y-%m-%d')
+  response = requests.get('https://datosagt2020.carto.com/api/v1/viz?types=table,derived&privacy=public&only_published=true&exclude_shared=true&per_page=10&order=updated_at&page=1').json()
+  for entry in response['visualizations']:
+    if entry['type'] == 'table' and 'mun_covid' in entry['name'] and fin_de_semana(entry['name'].split('_se')[1]) > ultimo_dia:
+      update_data(entry['name'])
+
+check_source()
