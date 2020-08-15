@@ -13,7 +13,7 @@ import requests
 def intro(current):
   txt = [
     '> Casos confirmados de covid19 en Bolivia por municipio, de acuerdo a [esta visualización](https://datosagt2020.carto.com/builder/c1cdf57c-a007-4f3f-883a-c25ebdc50986/embed) mantenida por agetic datos',
-    '_Actualizado el {a} con datos hasta el {u}_'.format(a=datetime.today().strftime('%Y/%m/%d'), u=current.split('.')[0].replace('-','/'))]
+    '_Actualizado el {a} con datos hasta el {u}_'.format(a=datetime.today().strftime('%Y/%m/%d'), u=current.strftime('%Y/%m/%d'))]
   with open('readme.md', 'w+') as f:
     f.write('\n\n'.join(txt) + '\n\n')
 
@@ -29,8 +29,7 @@ def update_data(tablename):
   df = pd.concat([poblacion, datos], axis=1).dropna()
   df[['codigo', 'confirmados', 'recuperados', 'fallecidos']] = df[['codigo', 'confirmados', 'recuperados', 'fallecidos']].astype(int)
   df.to_csv('clean_data/{}.csv'.format(dia.strftime('%Y-%m-%d')), header=['departamento', 'municipio', 'cod_ine', 'confirmados', 'recuperados', 'decesos'], float_format='%0.f', index=False)   
-  current, plots = tendencias()
-  write_md(current, plots)
+  write_md(dia)
   print(dia.strftime('%Y-%m-%d'))
 
 def fin_de_semana(semana):
