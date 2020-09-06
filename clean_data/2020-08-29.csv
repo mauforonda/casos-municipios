@@ -1,0 +1,296 @@
+departamento,municipio,cod_ine,confirmados,recuperados,decesos
+Chuquisaca,Sucre,10101,4398,1463,362
+Chuquisaca,Yotala,10102,71,27,1
+Chuquisaca,Poroma,10103,12,6,0
+Chuquisaca,Azurduy,10201,16,7,0
+Chuquisaca,Tarvita,10202,24,7,0
+Chuquisaca,Zudañez,10301,23,16,0
+Chuquisaca,Presto,10302,21,10,0
+Chuquisaca,Mojocoya,10303,18,7,1
+Chuquisaca,Villa Ricardo Mugia - Icla,10304,12,11,0
+Chuquisaca,Padilla,10401,16,15,0
+Chuquisaca,Tomina,10402,18,15,0
+Chuquisaca,Sopachui,10403,3,3,0
+Chuquisaca,Alcalá,10404,10,9,0
+Chuquisaca,El Villar,10405,2,1,0
+Chuquisaca,Monteagudo,10501,79,53,0
+Chuquisaca,Tarabuco,10601,32,12,2
+Chuquisaca,Yamparáez,10602,34,17,2
+Chuquisaca,Camargo,10701,65,35,5
+Chuquisaca,San Lucas,10702,79,27,7
+Chuquisaca,Incahuasi,10703,26,14,0
+Chuquisaca,Villa Charcas,10704,29,7,2
+Chuquisaca,Villa Serrano,10801,10,10,0
+Chuquisaca,Villa Abecia,10901,4,3,0
+Chuquisaca,Culpina,10902,37,21,3
+Chuquisaca,Las Carreras,10903,11,8,0
+Chuquisaca,Villa Vaca Guzmán,11001,43,32,0
+Chuquisaca,Macharetí,11003,4,4,0
+La Paz,Nuestra Señora de La Paz,20101,20819,5456,430
+La Paz,Palca,20102,4,0,0
+La Paz,Mecapaca,20103,20,8,1
+La Paz,Achocalla,20104,48,14,2
+La Paz,El Alto,20105,8386,2550,195
+La Paz,Achacachi,20201,33,6,5
+La Paz,Villa Ancoraimes,20202,3,2,0
+La Paz,Huarina,20203,2,0,0
+La Paz,Huatajata,20205,2,0,0
+La Paz,Chua Cocani,20206,2,2,0
+La Paz,Corocoro,20301,22,6,1
+La Paz,Calacoto,20303,2,0,0
+La Paz,Comanche,20304,2,0,0
+La Paz,Charaña,20305,14,0,0
+La Paz,Waldo Ballivian,20306,3,0,0
+La Paz,Mocomoco,20402,2,0,0
+La Paz,Puerto Mayor de Carabuco,20403,1,0,0
+La Paz,Escoma,20405,4,2,1
+La Paz,Chuma,20501,2,1,0
+La Paz,Ayata,20502,2,1,0
+La Paz,Sorata,20601,14,1,0
+La Paz,Guanay,20602,21,1,1
+La Paz,Tacacoma,20603,1,0,0
+La Paz,Tipuani,20606,1,0,0
+La Paz,Mapiri,20607,2,1,1
+La Paz,Teoponte,20608,7,6,0
+La Paz,Apolo,20701,2,0,0
+La Paz,Pelechuco,20702,2,0,0
+La Paz,Viacha,20801,578,200,7
+La Paz,Puerto Mayor de Guaqui,20802,3,1,0
+La Paz,Tiahuanacu,20803,12,0,0
+La Paz,Desaguadero,20804,3,0,0
+La Paz,Jesús de Machaka,20806,3,0,0
+La Paz,Luribay,20901,1,0,0
+La Paz,Sapahaqui,20902,6,5,0
+La Paz,Yaco,20903,4,0,0
+La Paz,Malla,20904,6,1,0
+La Paz,Cairoma,20905,16,13,0
+La Paz,Inquisivi,21001,8,0,0
+La Paz,Quime,21002,13,1,1
+La Paz,Cajuata,21003,2,1,1
+La Paz,Colquiri,21004,69,52,7
+La Paz,Ichoca,21005,1,1,0
+La Paz,Villa Libertad Licoma,21006,1,0,0
+La Paz,Chulumani,21101,25,11,4
+La Paz,Irupana,21102,45,6,2
+La Paz,Yanacachi,21103,9,4,0
+La Paz,Palos Blancos,21104,32,9,3
+La Paz,La Asunta,21105,10,2,1
+La Paz,Pucarani,21201,20,8,1
+La Paz,Laja,21202,40,7,4
+La Paz,Batallas,21203,53,4,2
+La Paz,Puerto Pérez,21204,2,0,0
+La Paz,Sicasica,21301,12,5,3
+La Paz,Umala,21302,16,11,3
+La Paz,Calamarca,21304,8,2,0
+La Paz,Patacamaya,21305,65,50,6
+La Paz,Colquencha,21306,5,0,0
+La Paz,Collana,21307,1,1,0
+La Paz,Coroico,21401,25,18,0
+La Paz,Coripata,21402,32,25,5
+La Paz,San Buenaventura,21502,11,9,1
+La Paz,Charazani,21601,1,0,0
+La Paz,Copacabana,21701,34,5,0
+La Paz,San Pedro de Tiquina,21702,6,0,0
+La Paz,Tito Yupanqui,21703,1,0,0
+La Paz,Papel Pampa,21802,1,1,0
+La Paz,Chacarilla,21803,5,0,0
+La Paz,Santiago de Machaca,21901,3,0,0
+La Paz,Caranavi,22001,64,34,4
+La Paz,Alto Beni,22002,3,0,1
+Cochabamba,Cochabamba,30101,7246,4964,550
+Cochabamba,Aiquile,30201,34,28,5
+Cochabamba,Pasorapa,30202,1,0,0
+Cochabamba,Omereque,30203,15,13,1
+Cochabamba,Ayopaya,30301,13,1,0
+Cochabamba,Morochata,30302,1,0,0
+Cochabamba,Cocapata,30303,2,1,1
+Cochabamba,Tarata,30401,36,18,9
+Cochabamba,Anzaldo,30402,16,3,0
+Cochabamba,Arbieto,30403,17,11,4
+Cochabamba,Arani,30501,27,7,2
+Cochabamba,Vacas,30502,8,6,0
+Cochabamba,Arque,30601,4,1,2
+Cochabamba,Tacopaya,30602,3,0,0
+Cochabamba,Capinota,30701,92,27,6
+Cochabamba,Santivañez,30702,29,25,1
+Cochabamba,Sicaya,30703,8,5,0
+Cochabamba,Cliza,30801,32,22,4
+Cochabamba,Toco,30802,7,2,2
+Cochabamba,Tolata,30803,27,4,1
+Cochabamba,Quillacollo,30901,1055,522,62
+Cochabamba,Sipesipe,30902,220,110,11
+Cochabamba,Tiquipaya,30903,234,116,15
+Cochabamba,Vinto,30904,244,162,25
+Cochabamba,Colcapirhua,30905,186,77,23
+Cochabamba,Sacaba,31001,821,409,66
+Cochabamba,Colomi,31002,38,16,3
+Cochabamba,Villa Tunari,31003,142,120,11
+Cochabamba,Tapacarí,31101,17,8,2
+Cochabamba,Totora,31201,49,26,1
+Cochabamba,Pojo,31202,14,3,0
+Cochabamba,Pocona,31203,16,14,1
+Cochabamba,Chimoré,31204,160,142,11
+Cochabamba,Puerto Villarroel,31205,471,360,32
+Cochabamba,Entre Ríos,31206,430,337,38
+Cochabamba,Mizque,31301,77,50,3
+Cochabamba,Vila Vila,31302,2,2,0
+Cochabamba,Punata,31401,122,93,22
+Cochabamba,Villa Rivero,31402,8,2,0
+Cochabamba,San Benito,31403,88,69,2
+Cochabamba,Tacachi,31404,1,0,1
+Cochabamba,Bolivar,31501,6,6,0
+Cochabamba,Tiraque,31601,11,6,4
+Cochabamba,Shinahota,31602,260,167,7
+Oruro,Oruro,40101,4037,1414,208
+Oruro,Caracollo,40102,25,6,10
+Oruro,Paria,40104,2,0,1
+Oruro,Challapata,40201,122,6,3
+Oruro,Santuario de Quillacas,40202,17,8,0
+Oruro,Curahuara de Carangas,40401,1,1,0
+Oruro,Turco,40402,3,1,0
+Oruro,Huachacalla,40501,32,24,4
+Oruro,Escara,40502,5,0,0
+Oruro,Esmeralda,40505,7,0,0
+Oruro,Poopó,40601,19,9,1
+Oruro,Antequera,40603,8,7,0
+Oruro,Huanuni,40701,484,353,25
+Oruro,Machacamarca,40702,18,10,1
+Oruro,Salinas de Garcí Mendoza,40801,12,3,0
+Oruro,Pampa Aullagas,40802,1,0,0
+Oruro,Sabaya,40901,34,3,1
+Oruro,Coipasa,40902,1,1,0
+Oruro,Toledo,41001,11,1,2
+Oruro,Eucaliptus,41101,41,32,4
+Oruro,Andamarca,41201,3,0,0
+Oruro,Totora,41301,5,0,0
+Oruro,Santiago de Huari,41401,13,1,4
+Oruro,Huayllamarca,41601,6,1,2
+Potosí,Potosí,50101,3047,336,118
+Potosí,Tinguipaya,50102,7,7,0
+Potosí,Yocalla,50103,2,0,1
+Potosí,Urmiri,50104,5,0,0
+Potosí,Uncía,50201,241,62,0
+Potosí,Chayanta,50202,36,23,1
+Potosí,Llallagua,50203,766,185,17
+Potosí,Chuquihuta Ayllu Jucumani,50204,13,0,1
+Potosí,Betanzos,50301,102,59,4
+Potosí,Chaquí,50302,2,0,0
+Potosí,Tacobamba,50303,21,0,0
+Potosí,Colquechaca,50401,29,7,1
+Potosí,Ravelo,50402,32,12,1
+Potosí,Pocoata,50403,36,12,5
+Potosí,Ocurí,50404,43,13,1
+Potosí,San Pedro,50501,11,6,1
+Potosí,Toro Toro,50502,35,0,1
+Potosí,Cotagaita,50601,17,0,1
+Potosí,Vitiche,50602,47,3,0
+Potosí,Sacaca,50701,8,0,3
+Potosí,Caripuyo,50702,4,0,0
+Potosí,Tupiza,50801,109,1,9
+Potosí,Atocha,50802,85,18,2
+Potosí,"Colcha ""K""",50901,96,52,2
+Potosí,Puna,51101,49,9,2
+Potosí,"Caiza ""D""",51102,59,18,1
+Potosí,Ckochas,51103,9,0,0
+Potosí,Uyuni,51201,77,14,14
+Potosí,Tomave,51202,31,5,0
+Potosí,Porco,51203,9,0,1
+Potosí,Arampampa,51301,4,0,0
+Potosí,Acasio,51302,4,0,0
+Potosí,Llica,51401,8,0,1
+Potosí,Tahua,51402,11,0,0
+Potosí,Villazón,51501,413,39,7
+Potosí,San Agustín,51601,4,0,0
+Tarija,Tarija,60101,4778,1946,122
+Tarija,Padcaya,60201,106,54,0
+Tarija,Bermejo,60202,227,66,4
+Tarija,Yacuiba,60301,1366,179,49
+Tarija,Caraparí,60302,186,118,1
+Tarija,Villa Montes,60303,357,163,8
+Tarija,Uriondo,60401,147,71,1
+Tarija,Yunchará,60402,24,7,0
+Tarija,San Lorenzo,60501,378,184,4
+Tarija,El Puente,60502,63,27,2
+Tarija,Entre Ríos,60601,109,59,2
+Santa Cruz,Santa Cruz de la Sierra,70101,26308,21136,1390
+Santa Cruz,Cotoca,70102,1175,521,14
+Santa Cruz,Porongo,70103,188,121,1
+Santa Cruz,La Guardia,70104,1347,865,7
+Santa Cruz,El Torno,70105,1003,539,31
+Santa Cruz,Warnes,70201,808,566,13
+Santa Cruz,Okinawa Uno,70202,121,88,5
+Santa Cruz,San Ignacio,70301,331,220,47
+Santa Cruz,San Miguel,70302,24,21,2
+Santa Cruz,San Rafael,70303,30,27,0
+Santa Cruz,Buena Vista,70401,108,69,0
+Santa Cruz,San Carlos,70402,274,190,0
+Santa Cruz,Yapacaní,70403,718,532,0
+Santa Cruz,San Juan,70404,153,111,0
+Santa Cruz,San José,70501,244,207,18
+Santa Cruz,Pailón,70502,395,287,9
+Santa Cruz,Roboré,70503,263,158,7
+Santa Cruz,Portachuelo,70601,260,241,4
+Santa Cruz,Santa Rosa,70602,179,158,0
+Santa Cruz,Colpa Bélgica,70603,140,132,8
+Santa Cruz,Lagunillas,70701,4,4,0
+Santa Cruz,Charagua,70702,15,5,1
+Santa Cruz,Cabezas,70703,55,31,1
+Santa Cruz,Gutiérrez,70705,16,2,1
+Santa Cruz,Camiri,70706,439,110,3
+Santa Cruz,Boyuibe,70707,18,0,0
+Santa Cruz,Vallegrande,70801,89,55,5
+Santa Cruz,Trigal,70802,12,9,0
+Santa Cruz,Moromoro,70803,30,22,1
+Santa Cruz,Samaipata,70901,34,26,2
+Santa Cruz,Pampa Grande,70902,63,28,4
+Santa Cruz,Mairana,70903,104,62,4
+Santa Cruz,Quirusillas,70904,13,1,1
+Santa Cruz,Montero,71001,2929,2621,152
+Santa Cruz,General Saavedra,71002,72,70,2
+Santa Cruz,Mineros,71003,135,124,11
+Santa Cruz,Fernández Alonso,71004,208,158,2
+Santa Cruz,San Pedro,71005,374,297,1
+Santa Cruz,Concepción,71101,280,150,7
+Santa Cruz,San Javier,71102,85,56,3
+Santa Cruz,San Julián,71103,145,51,0
+Santa Cruz,San Antonio de Lomerio,71104,231,173,12
+Santa Cruz,San Ramón,71105,38,34,1
+Santa Cruz,Cuatro Cañadas,71106,153,124,7
+Santa Cruz,San Matías,71201,38,32,0
+Santa Cruz,Comarapa,71301,76,46,0
+Santa Cruz,Saipina,71302,25,14,0
+Santa Cruz,Puerto Suarez,71401,81,74,0
+Santa Cruz,Puerto Quijarro,71402,229,159,0
+Santa Cruz,El Carmen Rivero Tórrez,71403,34,23,0
+Santa Cruz,Ascención de Guarayos,71501,78,62,16
+Santa Cruz,Urubicha,71502,40,26,2
+Santa Cruz,El Puente,71503,58,27,4
+Beni,Trinidad,80101,3860,419,205
+Beni,San Javier,80102,13,0,0
+Beni,Riberalta,80201,684,49,63
+Beni,Guayaramerín,80202,470,13,29
+Beni,Reyes,80301,74,0,4
+Beni,San Borja,80302,317,28,8
+Beni,Santa Rosa,80303,34,2,0
+Beni,Puerto Menor de Rurrenabaque,80304,341,60,3
+Beni,Santa Ana,80401,264,221,6
+Beni,Exaltación,80402,42,8,0
+Beni,San Ignacio,80501,97,57,4
+Beni,Loreto,80601,54,0,1
+Beni,San Andrés,80602,98,0,0
+Beni,San Joaquín,80701,138,125,6
+Beni,San Ramón,80702,96,91,3
+Beni,Puerto Siles,80703,2,0,0
+Pando,Cobija,90101,1765,192,143
+Pando,Porvenir,90102,37,0,1
+Pando,Bolpebra,90103,45,37,0
+Pando,Bella Flor,90104,72,26,0
+Pando,Puerto Rico,90201,142,11,1
+Pando,San Pedro,90202,11,0,0
+Pando,Filadelfia,90203,22,14,1
+Pando,Puerto Gonzalo Moreno,90301,49,0,0
+Pando,San Lorenzo,90302,94,5,0
+Pando,Sena,90303,50,32,0
+Pando,Santa Rosa,90401,13,4,1
+Pando,Villa Nueva,90502,8,6,0
+Pando,Santos Mercado,90503,7,0,0
