@@ -36,7 +36,10 @@ def update_data(tablename):
   print(dia.strftime('%Y-%m-%d'))
 
 def fin_de_semana(semana):
-  return datetime.strptime('2021 6 {}'.format(str(int(semana) - 1)), '%Y %w %U')
+  if int(semana) > 52:
+    return datetime.strptime('2020 6 {}'.format(str(int(semana) - 1)), '%Y %w %U')
+  else:
+    return datetime.strptime('2021 6 {}'.format(str(int(semana))), '%Y %w %U')
 
 def check_source():
   ultimo_dia = datetime.strptime(sorted(os.listdir('clean_data'))[-1].split('.')[0], '%Y-%m-%d')
