@@ -24,6 +24,7 @@ def find_semana(text):
   return re.findall('[0-9]{1,2}', text)[0]
   
 def update_data(tablename):
+  print(tablename)
   dia = fin_de_semana(find_semana(tablename))
   datos = pd.read_csv('https://snisbol.carto.com/api/v2/sql?filename={t}&q=SELECT+*+FROM+(select+*+from+public.{t})+as+subq+&format=csv&bounds=&api_key=&skipfields=the_geom_webmercator'.format(t=tablename))
   datos = datos[['codigo', 'confirmados', 'recuperados', 'fallecidos']]
@@ -44,13 +45,13 @@ def fin_de_semana(semana):
 def check_source():
   ultimo_dia = datetime.strptime(sorted(os.listdir('clean_data'))[-1].split('.')[0], '%Y-%m-%d')
   response = requests.get('https://snisbol.carto.com/api/v1/viz?types=table,derived&privacy=public&only_published=true&exclude_shared=true&per_page=10&order=updated_at&page=1').json()
-  since = [entry['created_at'] for entry in response['visualizations'] if entry['name'] == 'covid_mun_se52'][0]
+  # since = [entry['created_at'] for entry in response['visualizations'] if entry['name'] == 'covid_mun_se52'][0]
   new_tables = []
   for entry in response['visualizations']:
-    if entry['type'] == 'table' and 'cov' in entry['name'] and entry['created_at'] > since and fin_de_semana(find_semana(entry['name'])) > ultimo_dia:
+    if entry['type'] == 'table' and 'cov' in entry['name'] and fin_de_semana(find_semana(entry['name'])) > ultimo_dia:
         new_tables.append(entry['name'])
-  if len(new_tables) > 0:
-    update_data(new_tables[0])
+  for t in reversed(new_tables):
+    update_data(t)
   else:
     print(0)
 
