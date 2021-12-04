@@ -30,6 +30,7 @@ def update_data(tablename):
   datos = datos[['codigo', 'confirmados', 'recuperados', 'fallecidos']]
   datos.index = datos['codigo']
   poblacion = pd.read_csv('context/poblacion.csv', index_col='cod_ine')[['departamento', 'municipio']]
+  datos = datos.dropna(how='all')
   df = pd.concat([poblacion, datos], axis=1).dropna()
   df[['codigo', 'confirmados', 'recuperados', 'fallecidos']] = df[['codigo', 'confirmados', 'recuperados', 'fallecidos']].astype(int)
   df.to_csv('clean_data/{}.csv'.format(dia.strftime('%Y-%m-%d')), header=['departamento', 'municipio', 'cod_ine', 'confirmados', 'recuperados', 'decesos'], float_format='%0.f', index=False)   
